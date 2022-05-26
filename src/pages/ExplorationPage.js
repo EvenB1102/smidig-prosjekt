@@ -4,17 +4,11 @@ import icon2 from "../images/bk.webp"
 import hero from "../images/Hero.png"
 
 
-
-
-
-
-
-
 function ExplorationPage() {
     return (
       <body style={{backgroundColor: "#f7f7f7"}}>
         <main>
-        <img style={ExploarationStyles.hero} src={hero} />
+        <img style={ExplorationStyles.hero} src={hero} />
         <h1 style={{display: "flex", justifyContent: "center"}}>Explore Charities</h1>
         </main>
 
@@ -70,7 +64,7 @@ function ExplorationPage() {
 
   /* Styling */
 
-  export const ExploarationStyles = {
+  export const ExplorationStyles = {
     hero: {
       width: "100%",
       height: "50%",
