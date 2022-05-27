@@ -1,7 +1,7 @@
-import About from "../css/About.css"
+import AboutOrganizationStyle from "../css/AboutOrganizationStyle.css"
 
 
-const AboutUs = ({text, image}) => {
+const AboutOrganization = ({text, image}) => {
     return (
         <div className="section">
             <div className="container">
@@ -21,4 +21,4 @@ const AboutUs = ({text, image}) => {
     )
 }
 
-export default AboutUs
+export default AboutOrganization

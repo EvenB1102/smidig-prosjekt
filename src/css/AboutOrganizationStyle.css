@@ -6,11 +6,12 @@
 }
 .section {
     width: 100%;
-    min-height: 439px;
     background: #fff;
+    overflow: hidden;
 }
 .container {
-    width: 80%;
+    min-height: 439px;
+    width: 70%;
     display: block;
     margin: auto;
     padding-top: 100px;
@@ -18,10 +19,11 @@
 .content-section {
     float: left;
     width: 55%;
+    margin-bottom: 50px;
 }
 .image-section {
     float: right;
-    width: 40%;
+    width: 30%;
 }
 .image-section img {
     width: 100%;

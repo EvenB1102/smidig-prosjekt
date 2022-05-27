@@ -6,8 +6,9 @@ import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
 import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import { BadgeCard } from "./Components/BadgeCard";
 import ProfilePage from "./Screens/ProfilePage";
-import AboutUs from "./Components/AboutUs";
+import AboutOrganization from "./Components/AboutOrganization";
 import HowWeWork from "./Components/HowWeWork";
+import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
 
 
 
@@ -56,8 +57,9 @@ function App() {
 
   return (
     <div>
-    <AboutUs text={"We are a lorem ipsum ipsum lorem lololololo"}></AboutUs>
-    <HowWeWork text={"We are a lorem ipsum ipsum loremllsd lololololo"} ></HowWeWork>
+    <OrganizationHeaderComponent></OrganizationHeaderComponent>
+    <AboutOrganization text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}></AboutOrganization>
+    <HowWeWork text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} ></HowWeWork>
     </div>
 
     /**

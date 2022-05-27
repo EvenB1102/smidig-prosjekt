@@ -1,3 +1,4 @@
+import Buttons from "../css/Buttons.css"
 
 export const ActivityButtons = ({text, color, icon}) => {
     return (
@@ -16,9 +17,7 @@ export const ActionButton = ({text}) => {
 
 export const NavButton = ({text}) => {
     return (
-        <button style={{background: "none", border: "none", width: "100px", borderBottom: "solid #709E9B 3px", fontSize: "18px",
-        fontFamily: "sans-serif", fontWeight: "500", color: "#001826", margin: "20px", padding: "20px 0px 20px 0px"
-        }}>{text}</button>
+        <button className="navButton">{text}</button>
     )
 }
 
