@@ -9,6 +9,7 @@ import ProfilePage from "./Screens/ProfilePage";
 import AboutOrganization from "./Components/AboutOrganization";
 import HowWeWork from "./Components/HowWeWork";
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
+import OrganizationProjects from "./Components/OrganizationProjects";
 
 
 
@@ -57,9 +58,8 @@ function App() {
 
   return (
     <div>
-    <OrganizationHeaderComponent></OrganizationHeaderComponent>
-    <AboutOrganization text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}></AboutOrganization>
-    <HowWeWork text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."} ></HowWeWork>
+      <OrganizationHeaderComponent></OrganizationHeaderComponent>
+      <OrganizationProjects title={"Ongoing projects"}></OrganizationProjects>
     </div>
 
     /**
