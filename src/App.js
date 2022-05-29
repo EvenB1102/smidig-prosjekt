@@ -5,6 +5,7 @@ import icon2 from "./images/bk.webp"
 import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
 import { SubscriptionPlan } from "./Components/SubscriptionPlan";
 import ExplorationPage from "./pages/ExplorationPage";
+import DonationPage from "./pages/DonationPage";
 
 
 
@@ -12,7 +13,7 @@ import ExplorationPage from "./pages/ExplorationPage";
 
 function App() {
   return (
-    <ExplorationPage />
+    <DonationPage />
   );
 }
 
