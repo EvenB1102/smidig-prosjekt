@@ -10,6 +10,7 @@ import AboutOrganization from "./Components/AboutOrganization";
 import HowWeWork from "./Components/HowWeWork";
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
 import OrganizationProjects from "./Components/OrganizationProjects";
+import WelcomeComponent from "./Components/WelcomeComponent";
 
 
 
@@ -58,8 +59,7 @@ function App() {
 
   return (
     <div>
-      <OrganizationHeaderComponent></OrganizationHeaderComponent>
-      <OrganizationProjects title={"Ongoing projects"}></OrganizationProjects>
+      <WelcomeComponent></WelcomeComponent>
     </div>
 
     /**
