@@ -2,6 +2,7 @@
 import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <div className="content-wrap">
 
     </div>
+    <HowMelioraImpactWorks/>
     <Footer/>
     </div>
   );

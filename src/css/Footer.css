@@ -1,6 +1,9 @@
 .main-footer {
     bottom: 0;
     position: relative;
+    height: fit-content;
+    margin: 50px;
+    padding-bottom: 50px;
 }
 
 .row {
@@ -26,24 +29,15 @@
     text-align: center;
 }
 
-.divider {
-    position: relative;
-    left: 50%;
-    width: 2px;
-    margin: 6px 0;
-    background: black;
-    height: 70%;
-}
-
 .list1 {
     position: relative;
     left: 60%;
-    top: 22%;
+    top: 24%;
 }
 
 .list2 {
     position: relative;
     left: 10%;
-    top: 61%;
+    top: 62%;
 }
 
