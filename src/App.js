@@ -23,6 +23,7 @@ import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import About from './Components/AboutPage/About.js'
 
 
 
@@ -33,6 +34,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <About />
       <Routes>
         <Route path='/' exact component={Home}/>
         <Route path='/Explore' exact component={Explore}/>
