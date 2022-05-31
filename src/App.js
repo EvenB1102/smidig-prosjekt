@@ -76,7 +76,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
-        <Route path='/News' exact component={News}/>
+        <Route path={"/About"} element={<About />}/>
       </Routes>
       <Footer />
     </BrowserRouter>

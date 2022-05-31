@@ -24,11 +24,11 @@ const Navbar = () => {
                     />
             </div>
             <NavMenu>
-                <NavLink to="/Explore" activeStyle>
-                    Explore
-                </NavLink>
                 <NavLink to="/About" activeStyle>
                     About
+                </NavLink>
+                <NavLink to="/Explore" activeStyle>
+                    Explore
                 </NavLink>
                 <NavLink to="/Donation" activeStyle>
                     Donation
