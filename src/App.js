@@ -24,6 +24,7 @@ import Footer from "./Components/Footer";
 import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 import About from './Components/AboutPage/About.js'
+import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
 
 
 
@@ -77,6 +78,7 @@ function App() {
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>
+        <Route path={"/Organization"} element={<OrganizationHeaderComponent />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
