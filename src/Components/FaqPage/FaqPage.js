@@ -27,7 +27,7 @@ const FaqPage = () => {
     <h3>What is the weirdest food combination you enjoy?</h3>
     <h3>Why is this group so awesome in so many ways?</h3>
     <h3>Is it true that Lemonape is Elon Musks sensei?</h3>
-    <h3>How fast does snow fall?</h3>
+    <h3>How fast does snow fall? </h3>
     </div>
     </div>
     </div>
