@@ -3,6 +3,7 @@ import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import FaqPage from "./Components/FaqPage/FaqPage";
 
 
 
@@ -15,8 +16,8 @@ function App() {
     <div className="content-wrap">
 
     </div>
-    <HowMelioraImpactWorks/>
-    <Footer/>
+    <FaqPage/>
+    
     </div>
   );
 }
