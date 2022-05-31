@@ -23,6 +23,7 @@ export const NavButton = ({text}) => {
     )
 }
 
+
 export const DonationButton = ({text}) => {
     return (
         <button style={{alignItems:"center",

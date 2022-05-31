@@ -1,3 +1,4 @@
+
 import CharityCard from "./Components/CharityCard";
 import SmallCharityCard from "./Components/SmallCharityCard";
 import icon from "./images/icon.jpeg"
@@ -16,6 +17,14 @@ import Home from './Components/Pages/Home';
 import Explore from './Components/Pages/Explore';
 import Resources from './Components/Pages/Resources';
 import News from './Components/Pages/News';
+
+
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import About from './Components/AboutPage/About.js'
+
 
 
 
@@ -63,12 +72,14 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <About />
       <Routes>
         <Route path='/' exact component={Home}/>
         <Route path='/Explore' exact component={Explore}/>
         <Route path='/Resources' exact component={Resources}/>
         <Route path='/News' exact component={News}/>
       </Routes>
+      <Footer />
     </Router>
     
     
@@ -129,3 +140,4 @@ const yearlySubscriptionPlan = {
   fourthdot: "Badges", 
   fifthdot: "Premium support"
 }
+

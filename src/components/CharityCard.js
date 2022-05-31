@@ -1,6 +1,8 @@
 import Charity from "../css/Charity.css"
 import buildingicon from "../images/building-icon.png"
+
 import { ActionButton, DonationButton } from "./ButtonComponents";
+
 
 
 
@@ -30,10 +32,10 @@ function CharityCard({image, title, daysleft, completeness, description}) {
         <DonationButton text="Make a donation" />
       </div>
 
-
     </div>
   );
 }
+
 
 export default CharityCard;
 
@@ -215,3 +217,4 @@ export const CharityCardStyles = {
     gridColumnStart: 1
   }
 }
+

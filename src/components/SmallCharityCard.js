@@ -250,7 +250,3 @@ overlap: {
   gridTemplateColumns: "1fr"
 }
 }
-
-
-
-
