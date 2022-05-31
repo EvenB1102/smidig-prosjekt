@@ -38,5 +38,43 @@ export const CharityCardComponentStyles = {
 }
 
 export const SubscriptionPlanStyles = {
+}
     
+export const BadgeCardStyles = {
+    badgeWrapper: {
+        width: "296px",
+        height: "355px",
+        borderRadius: "50px",
+        background: "none",
+        display: "flex",
+        flex: 1,
+        background: "red",
+        overflow: "hidden",
+        justifyContent: "center"
+    },
+    badgeInfoCard: {
+        width: "296px",
+        height: "277px",
+        borderRadius: "15px",
+        overflow: "hidden"
+    }, 
+    badgeDescription: {
+        textAlign: "center",
+        padding: "0 20px 0 20px",
+        top: "35px"
+    },
+    badgeDateWrapper: {
+        textAlign: "center",
+        display: "flex",
+        padding: "20px",
+        justifyContent: "space-between",
+        top: "200px"
+    },
+    badgeDateInfo: {
+        fontFamily: "sans-serif", 
+        fontSize: "12px", 
+        lineHeight: "18px", 
+        letterSpacing: "0.1em",
+        margin: "0",
+    }
 }
