@@ -11,7 +11,7 @@ import DonationPage from "./pages/DonationPage";
 
 
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
 import Home from './Components/Pages/Home';
 import Explore from './Components/Pages/Explore';
@@ -70,17 +70,16 @@ function App() {
 }
 
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
-      <About />
       <Routes>
         <Route path='/' exact component={Home}/>
-        <Route path='/Explore' exact component={Explore}/>
-        <Route path='/Resources' exact component={Resources}/>
+        <Route path={"/Explore"} element={<ExplorationPage />}/>
+        <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path='/News' exact component={News}/>
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
     
     
   );

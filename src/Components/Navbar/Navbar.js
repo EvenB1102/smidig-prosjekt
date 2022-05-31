@@ -30,8 +30,8 @@ const Navbar = () => {
                 <NavLink to="/About" activeStyle>
                     About
                 </NavLink>
-                <NavLink to="/Resources" activeStyle>
-                    Resources
+                <NavLink to="/Donation" activeStyle>
+                    Donation
                 </NavLink>
                 <NavLink to="/News" activeStyle>
                     News

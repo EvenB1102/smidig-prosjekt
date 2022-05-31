@@ -48,7 +48,4 @@ fontSize: "18px",
 lineHeight: "100%"}}>{text}</button>
     )
 }
-        <button className="navButton">{text}</button>
-    )
-}
 
