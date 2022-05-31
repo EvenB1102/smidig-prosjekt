@@ -8,7 +8,7 @@ import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
 
 
-import './App.css';
+
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
