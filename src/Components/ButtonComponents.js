@@ -22,3 +22,29 @@ export const NavButton = ({text}) => {
     )
 }
 
+
+export const DonationButton = ({text}) => {
+    return (
+        <button style={{alignItems:"center",
+    padding: "16px 24px",
+gap: "8px",
+
+width: "264px",
+height: "50px",
+backgroundColor: "#FFFFFF",
+
+border: "1px solid #CDD1D4",
+borderRadius: "28px",
+
+flex: "none",
+order: 3,
+flexGrow: 0,
+
+fontFamily: 'Euclid Circular B',
+fontStyle: "normal",
+fontWeight: 600,
+fontSize: "18px",
+lineHeight: "100%"}}>{text}</button>
+    )
+}
+
