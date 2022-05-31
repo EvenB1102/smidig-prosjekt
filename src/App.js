@@ -23,48 +23,104 @@ import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import { BadgeCard } from "./Components/BadgeCard";
+import ProfilePage from "./Screens/ProfilePage";
+import AboutOrganization from "./Components/AboutOrganization";
+import HowWeWork from "./Components/HowWeWork";
+import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
+import OrganizationProjects from "./Components/OrganizationProjects";
+import WelcomeComponent from "./Components/WelcomeComponent";
+
 
 
 
 
 function App() {
-  
-
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='/' exact component={Home}/>
-        <Route path='/Explore' exact component={Explore}/>
-        <Route path='/Resources' exact component={Resources}/>
+        <Route path={"/Explore"} element={<ExplorationPage />}/>
+        <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path='/News' exact component={News}/>
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
     
     
+  );
+
+
+  const profileVolkswagen = {
+    badges:[{
+    color: "#fee296",
+    badgetitle: "Insert Badge Title",
+    backgroundColor: "rgb(255, 184, 0, 0.15)",
+    text: "This is an example description of what the badge represent",
+    badgedate: "12/07/21",
+    badgegiver: "Red Cross"
+  },
+  {
+  color: "#fee296",
+  badgetitle: "Insert Badge Title",
+  backgroundColor: "red",
+  text: "This is an example description of what the badge represent",
+  badgedate: "12/07/21",
+  badgegiver: "Leger uten grenser"
+  },
+  {
+    color: "cyan",
+    badgetitle: "Insert Badge Title",
+    backgroundColor: "blue",
+    text: "This is an example description of what the badge represent",
+    badgedate: "12/07/21",
+    badgegiver: "Abba"
+  },
+  {
+    color: "orange",
+    badgetitle: "Insert Badge Title",
+    backgroundColor: "green",
+    text: "This is an example description of what the badge represent",
+    badgedate: "12/07/21",
+    badgegiver: "Lindsay Lohan"
+  },
+  ]
+}
+
+  return (
+    <div>
+      <WelcomeComponent></WelcomeComponent>
+    </div>
+
+    /**
+    <div>
+      <ProfilePage data={profileVolkswagen}></ProfilePage>
+      <div style={{display: "flex", flex: 1, justifyContent: "center"}}>
+      
+      </div>
+  
+    {/* <BadgeCard color={"#fee296"} badgetitle={"Insert Badge Title"}
+    backgroundColor={"rgb(255, 184, 0, 0.15)"}
+    text={"This is an example description of what the badge represent"} 
+    badgedate={"12/07/21"} 
+    badgegiver={"Red Cross"}>
+    </BadgeCard>
+    <BadgeCard color={"#fee296"} badgetitle={"Insert Badge Title"}
+    backgroundColor={"rgb(255, 184, 0, 0.15)"}
+    text={"This is an example description of what the badge represent"} 
+    badgedate={"12/07/21"} 
+    badgegiver={"Red Cross"}>
+    </BadgeCard> }
+    </div> 
+    */
   );
 }
 
 export default App;
 
 
-
-
-
-
-
-
-
-/* Charity Card Info */
-
-
-//<CharityCard {...myElement}/> 
-
-/* SubscriptionPlan
-        <SubscriptionPlan {...monthlySubscriptionPlan}/>
-        <SubscriptionPlan {...yearlySubscriptionPlan}/>
-*/
 const myElement = {
   title: "Education 4All",
   description: "Our donation goal of building 10 more schools in Africa has been achieved. Meloria Impact are grateful for all...",

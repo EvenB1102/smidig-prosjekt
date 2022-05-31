@@ -4,38 +4,36 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.work-section {
+.section {
     width: 100%;
-    background: #EDCBB1;
+    background: #fff;
     overflow: hidden;
-    
 }
-.work-container {
+.container {
     min-height: 439px;
     width: 70%;
     display: block;
     margin: auto;
     padding-top: 100px;
 }
-.work-content-section {
-    float: right;
+.content-section {
+    float: left;
     width: 55%;
     margin-bottom: 50px;
 }
-.work-image-section {
-    float: left;
+.image-section {
+    float: right;
     width: 30%;
 }
-.work-image-section img {
+.image-section img {
     width: 100%;
     height: auto;
 }
-.work-content-section .work-title {
+.content-section .title {
     font-size: 28px;
-    font-weight: 400;
 }
-.work-content-section .work-content p {
-    margin-top: 24px;
+.content-section .content p {
+    margin-top: 20px;
     color: #000;
     font-size: 17px;
     line-height: 1.5;
