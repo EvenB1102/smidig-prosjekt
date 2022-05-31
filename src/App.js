@@ -25,6 +25,7 @@ import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 import About from './Components/AboutPage/About.js'
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
+import { SubscriptionPage } from "./pages/SubscriptionPage";
 
 
 
@@ -79,6 +80,7 @@ function App() {
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>
         <Route path={"/Organization"} element={<OrganizationHeaderComponent />}/>
+        <Route path={"/Subscription"} element={<SubscriptionPage />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
@@ -122,23 +124,5 @@ const mySmallElement = {
   image: icon2
 };
 
-const monthlySubscriptionPlan = {
-  price: "10.49",
-  duration: "Monthly",
-  firstdot: "Access to every organisation", 
-  seconddot: "Donation limit uncapped", 
-  thirddot: "Donation statistics", 
-  fourthdot: "Badges", 
-  fifthdot: "Premium support"
-}
 
-const yearlySubscriptionPlan = {
-  price: "89.99",
-  duration: "Annually",
-  firstdot: "Access to every organisation", 
-  seconddot: "Donation limit uncapped", 
-  thirddot: "Donation statistics", 
-  fourthdot: "Badges", 
-  fifthdot: "Premium support"
-}
 
