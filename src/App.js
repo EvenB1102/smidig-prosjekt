@@ -1,3 +1,4 @@
+
 import CharityCard from "./Components/CharityCard";
 import SmallCharityCard from "./Components/SmallCharityCard";
 import icon from "./images/icon.jpeg"
@@ -99,3 +100,4 @@ const yearlySubscriptionPlan = {
   fourthdot: "Badges", 
   fifthdot: "Premium support"
 }
+
