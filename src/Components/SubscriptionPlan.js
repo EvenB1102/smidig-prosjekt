@@ -91,7 +91,7 @@ export const SubscriptionPlanStyles = {
         padding: "0px 0px 3px",
         gap: "10px",
         
-        width: "82px",
+        width: "90px",
         height: "21px",
 
 
@@ -110,7 +110,7 @@ export const SubscriptionPlanStyles = {
         padding: "25px 0px 0px 20px",
         gap: "24px",
 
-        width: "240px",
+        width: "284px",
         height: "324px",
 
         background: "#FFFFFF",
