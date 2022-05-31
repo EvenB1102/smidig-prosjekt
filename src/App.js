@@ -18,8 +18,17 @@ import Resources from './Components/Pages/Resources';
 import News from './Components/Pages/News';
 
 
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+
+
+
 
 function App() {
+  
+
   return (
     <Router>
       <Navbar />
@@ -29,6 +38,7 @@ function App() {
         <Route path='/Resources' exact component={Resources}/>
         <Route path='/News' exact component={News}/>
       </Routes>
+      <Footer />
     </Router>
     
     
