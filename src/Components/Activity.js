@@ -5,7 +5,8 @@ import othericon from "../images/icons/Sort.png"
 
 export function Activity() {
     return (
-        <body>
+        <div>
+            <div style={{paddingLeft: 80}}>
             <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
                 <h1>Activity</h1>
                 <p>Overview over all your donations over a specified period of time</p>
@@ -16,6 +17,11 @@ export function Activity() {
                 <ActivityButtons text="Educational" color="rgba(237, 203, 177, 0.44)" icon={educationicon}/>
                 <ActivityButtons text="Other" color="rgba(112, 158, 155, 0.11)" icon={othericon}/>
             </div>
-        </body>
+            </div>
+
+            <div style={{paddingTop: 50}}>
+                <img src={require("../images/Graph.png")} />
+            </div>
+        </div>
     )
 }
