@@ -11,6 +11,7 @@ import HowWeWork from "./Components/HowWeWork";
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
 import OrganizationProjects from "./Components/OrganizationProjects";
 import WelcomeComponent from "./Components/WelcomeComponent";
+import ContactPage from "./Components/ContactPage";
 
 
 
@@ -59,7 +60,7 @@ function App() {
 
   return (
     <div>
-      <WelcomeComponent></WelcomeComponent>
+      <ContactPage></ContactPage>
     </div>
 
     /**
