@@ -27,6 +27,8 @@ import About from './Components/AboutPage/About.js'
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
 import { SubscriptionPage } from "./pages/SubscriptionPage";
 
+import { Activity } from "./Components/Activity";
+
 
 
 
@@ -81,6 +83,7 @@ function App() {
         <Route path={"/About"} element={<About />}/>
         <Route path={"/Organization"} element={<OrganizationHeaderComponent />}/>
         <Route path={"/Subscription"} element={<SubscriptionPage />}/>
+        <Route path={"/Activity"} element={<Activity />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
