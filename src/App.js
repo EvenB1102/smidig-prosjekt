@@ -26,6 +26,7 @@ import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 import About from './Components/AboutPage/About.js'
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
 import { SubscriptionPage } from "./pages/SubscriptionPage";
+
 import { Activity } from "./Components/Activity";
 
 
