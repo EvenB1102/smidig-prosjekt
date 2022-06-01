@@ -1,10 +1,11 @@
 import Buttons from "../css/Buttons.css"
 
-export const ActivityButtons = ({text, color, icon}) => {
+export const ActivityButtons = ({text, color, icon, textcolor}) => {
     return (
-        <button style={{background: color, border: "none", borderRadius: 15, width: 120}}>{icon}{text}</button>
+        <button style={{background: color, border: "none", borderRadius: 12, width: 160, height: 62, color: textcolor, fontSize: 15}}><img src={icon} style={{display: "flex", justifyContent: "flex-start", position: "absolute"}}/> {text}</button>
     )
 }
+
 
 export const ActionButton = ({text}) => {
     return (
