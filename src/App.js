@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 import FaqPage from "./Components/FaqPage/FaqPage";
+import SettingsPage from "./Components/SettingPage/SettingsPage.js"
 
 
 import CharityCard from "./Components/CharityCard";
@@ -95,6 +96,9 @@ function App() {
         <Route path={"/Organization"} element={<OrganizationHeaderComponent />}/>
         <Route path={"/Subscription"} element={<SubscriptionPage />}/>
         <Route path={"/Activity"} element={<Activity />}/>
+        <Route path={"/Settings"} element={<SettingsPage />}/>
+        <Route path={"/FAQ"} element={<FaqPage />}/>
+      
       </Routes>
       <Footer />
     </BrowserRouter>
@@ -105,38 +109,6 @@ function App() {
 
 export default App;
 
-
-
-
-
-
-
-
-
-/* Charity Card Info */
-
-
-//<CharityCard {...myElement}/> 
-
-/* SubscriptionPlan
-        <SubscriptionPlan {...monthlySubscriptionPlan}/>
-        <SubscriptionPlan {...yearlySubscriptionPlan}/>
-*/
-const myElement = {
-  title: "Education 4All",
-  description: "Our donation goal of building 10 more schools in Africa has been achieved. Meloria Impact are grateful for all...",
-  daysleft: 11,
-  completeness: 3,
-  image: icon
-};
-
-const mySmallElement = { 
-  title: "Building a water well in Kajone’n",
-  description: "Kajone’n in West Africa needs a new water well for its inhabitants",
-  moneygoal: 20000,
-  moneyraised: 3500,
-  image: icon2
-};
 
 
 

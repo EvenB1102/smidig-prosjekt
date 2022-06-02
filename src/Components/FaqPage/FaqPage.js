@@ -19,7 +19,7 @@ const FaqPage = () => {
         <li>Subscription</li>
         <li>Organizations</li>  
     </div>
-    <div style={{display: "flex", flexDirection: "column", justifyContent: "center"  }} >
+    <div style={{display: "flex", flexDirection: "column", justifyContent: "center"}} >
     <h3>How do you process payments?</h3>
     <p>Some text explaining the process of payments lorem ipsum voluptate velit esse cillum dolore eu fugiat nulla.</p>
     <h3>Are you eating lunch together?</h3>
