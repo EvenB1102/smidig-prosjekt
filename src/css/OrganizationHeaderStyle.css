@@ -1,0 +1,92 @@
+.organizationContainer {
+    height: 526px;
+    display: block;
+}
+.headerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 204px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.headerImage img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.profileContentContainer {
+    display: flex;
+    justify-content: center;
+}
+.profileContent {
+    height: 200px;
+    top: 200px;
+}
+.profileDetails {
+    width: 390px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.profileDetails .organizationName {
+    font-size: 28px;
+    font-weight: bold;
+}
+.profileDetails .socialsContainer {
+    display: flex;
+    justify-content: space-between;
+    border: solid black .5px;
+    border-radius: 10px;
+    height: 21px;
+    width: 146px;
+}
+.profileDetails .socialsContainer .statsDivider{
+    height: 100%;
+    width: 0.5px;
+    background: black;
+}
+.profileDescription {
+    width: 390px;
+    text-align: center;
+}
+.profileDescription .profileDescriptionText {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: .03em;
+    padding-bottom: 30px;
+}
+.profileDescription .statsBar {
+    display: flex;
+    margin-top: 10px;
+    padding: 18px;
+    border: solid black .5px; 
+    justify-content: space-between; 
+    width: 361px; 
+    align-items: center; 
+    height: 53px; 
+    border-radius: 10px;
+}
+.profileDescription .statsBar .statsDivider {
+    height: 250%;
+    width: 0.5px;
+    background: black;
+}
+.profileDescription .statsBar .statsNumber {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.profileDescription .statsBar .statsTitle {
+    font-size: 11px;
+    color: rgb(66, 66, 66);
+}
+.organizationHeaderBottom {
+    display: flex;
+    justify-content: center;
+}
+.sectionDivider {
+    width: 100%;
+    margin-top: -20px;
+}

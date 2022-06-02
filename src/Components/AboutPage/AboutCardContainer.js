@@ -12,7 +12,7 @@ const AboutCardContainer = () => {
             display: "block",
             zIndex: "-10",
             width: "3500px",
-            top: "2426px",
+            top: "2556px",
         }}></div>
         <div style={{
                 display: "flex",
