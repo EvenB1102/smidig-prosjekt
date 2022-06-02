@@ -1,4 +1,4 @@
-import Buttons from "../css/Buttons.css"
+import "../css/Buttons.css"
 
 export const ActivityButtons = ({text, color, icon, textcolor}) => {
     return (
@@ -19,7 +19,7 @@ export const ActionButton = ({text}) => {
 
 export const DonationButton = ({text}) => {
     return (
-        <a href="/Donation"><button style={{alignItems:"center",
+        <a href="/Donation"><button className="donationbutton" style={{alignItems:"center",
     padding: "16px 24px",
 gap: "8px",
 
