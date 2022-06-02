@@ -27,10 +27,8 @@ import Resources from './Components/Pages/Resources';
 import News from './Components/Pages/News';
 
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import Footer from "./Components/Footer";
-import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+
+
 import About from './Components/AboutPage/About.js'
 import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
 import { SubscriptionPage } from "./pages/SubscriptionPage";
@@ -38,11 +36,11 @@ import { SubscriptionPage } from "./pages/SubscriptionPage";
 import { Activity } from "./Components/Activity";
 
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import Footer from "./Components/Footer";
-import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
-import FaqPage from "./Components/FaqPage/FaqPage";
+
+
+
+
+import LandingPage from "./Components/LandingPage/LandingPage";
 
 
 
@@ -90,7 +88,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home}/>
+        <Route path='/' exact element={<LandingPage />}/>
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>

@@ -25,7 +25,7 @@ const LandingPage = () => {
         <div><LandingField5/></div>
 
         <HowMelioraImpactWorks/>
-        <Footer/>
+
     </div>
     
     
