@@ -1,0 +1,75 @@
+
+.welcomeContainer {
+    display: block;
+}
+.welcomeHeaderImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 380px;
+    width: 100%;
+}
+.welcomeContentContainer {
+    width: 100%;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 62px 230px;
+    gap: 10px;
+}
+.welcomeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 835px;
+    height: 581px;
+    gap: 42px;
+}
+.welcomeTitle {
+    width: 835px;
+    height: 77px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 120%;
+    color: #001826;
+}
+.welcomeContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 44px;
+
+    width: 800px;
+    height: 462px;
+}
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 800px;
+}
+.welcomeText h3 {
+    width: 194px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #001826;
+}
+.welcomeText p {
+    width: 800px;
+    height: 135px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #3B4145;
+}
