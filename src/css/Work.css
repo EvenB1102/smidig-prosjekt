@@ -6,8 +6,6 @@
 }
 .work-section {
     width: 100%;
-
-
     background: #EDCBB1;
     overflow: hidden;
     
@@ -35,6 +33,7 @@
 .work-image-section {
     float: left;
     width: 30%;
+
 }
 .work-image-section {
     float: left;
