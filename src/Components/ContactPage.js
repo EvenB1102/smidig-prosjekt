@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/ContactPageStyle.css";
+import { ActionButton } from './ButtonComponents'
 
 const ContactPage = () => {
     return (
@@ -62,12 +63,15 @@ const ContactPage = () => {
                                 <label for="subject">Subject</label>
                                 <input type="text" id="subject"></input>
                             </div>
-                            <label for="message">Message</label>
-                            <textarea name="" id="message"></textarea>
+                            <div className="messageTitle">
+                                <label for="message">Message</label>
+                                <textarea name="" id="message" placeholder='Type your Message'></textarea>
+                            </div>
                         </div>
                         <div className="action">
-                            <input type="submit" value="Send message"></input>
+                            <ActionButton text="Send message"></ActionButton>
                         </div>
+                        <hr></hr>
                     </div>
                 </form>
             </div>  

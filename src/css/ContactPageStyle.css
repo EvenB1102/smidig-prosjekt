@@ -1,15 +1,13 @@
 
 .contactPageContainer {
     display: block;
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 .contactUsContainer {
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    height: 585px;
+    height: auto;
     display: flex;
     justify-content: center;
     background: rgba(237, 203, 177, 0.2);
@@ -84,11 +82,55 @@
     justify-content: center;
 }
 .contactForm {
+    margin-top: 20px;
     width: 768px;
-    background: red;
     height: 529px;
 }
 .contactFormContent {
+    display: block;
+    font-size: 12px;
+    color: #1D2130;
+}
+.half {
+    width: 768px;
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+    padding-bottom: 3px;
+}
+.half input {
+    border: none;
+    height: 20px;
+    font-size: 18px;
+    width: 360px;
+    border-bottom: solid 1px black;
+    padding: 20px 0 15px 0;
+}
+.full {
+    width: 768px;
+    padding-bottom: 3px;
+}
+.full input {
+    border: none;
+    height: 20px;
+    font-size: 18px;
+    width: 745px;
+    border-bottom: solid 1px black;
+    padding: 20px 0 15px 0;
+}
+.messageTitle {
+    padding-top: 40px;
+}
+.full textarea{
+    padding: 20px;
+    width: 745px;
+    height: 156px;
+}
+.item {
+    padding-top: 30px;
+}
+.action {
     display: flex;
     justify-content: center;
+    padding: 20px 0 80px 0;
 }
