@@ -21,10 +21,10 @@ import "./App.css";
 import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import Footer from "./Components/Footer";
-import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+
+
+
+
 import History from "./Components/History";
 
 import Navbar from './Components/Navbar/Navbar';
