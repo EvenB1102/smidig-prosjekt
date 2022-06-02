@@ -42,6 +42,7 @@ import { Activity } from "./Components/Activity";
 
 
 import LandingPage from "./Components/LandingPage/LandingPage";
+import OrganizationPage from "./Components/OrganizationPage/OrganizationPage.js";
 
 
 
@@ -93,7 +94,7 @@ function App() {
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>
-        <Route path={"/Organization"} element={<OrganizationHeaderComponent />}/>
+        <Route path={"../OrganizationPage/Organization"} element={<OrganizationPage />}/>
         <Route path={"/Subscription"} element={<SubscriptionPage />}/>
         <Route path={"/Activity"} element={<Activity />}/>
         <Route path={"/Settings"} element={<SettingsPage />}/>
