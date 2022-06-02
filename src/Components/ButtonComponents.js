@@ -19,7 +19,7 @@ export const ActionButton = ({text}) => {
 
 export const DonationButton = ({text}) => {
     return (
-        <button style={{alignItems:"center",
+        <a href="/Donation"><button style={{alignItems:"center",
     padding: "16px 24px",
 gap: "8px",
 
@@ -38,7 +38,7 @@ fontFamily: 'Euclid Circular B',
 fontStyle: "normal",
 fontWeight: 600,
 fontSize: "18px",
-lineHeight: "100%"}}>{text}</button>
+lineHeight: "100%"}}>{text}</button></a>
     )
 }
 
