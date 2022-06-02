@@ -15,16 +15,6 @@ import { SubscriptionPlan } from "./Components/SubscriptionPlan";
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import Footer from "./Components/Footer";
-import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
-
-
-
-
-
-
 import History from "./Components/History";
 
 import Navbar from './Components/Navbar/Navbar';
@@ -98,7 +88,7 @@ function App() {
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>
-        <Route path={"../OrganizationPage/Organization"} element={<OrganizationPage />}/>
+        <Route path={"/Organization"} element={<OrganizationPage />}/>
         <Route path={"/Subscription"} element={<SubscriptionPage />}/>
         <Route path={"/Activity"} element={<Activity />}/>
         <Route path={"/Settings"} element={<SettingsPage />}/>
@@ -109,22 +99,6 @@ function App() {
     </BrowserRouter>
     
     
-  );
-}
-
-export default App;
-
-function App() {
-  
-
-  return (
-    <div className="page-container">
-    <div className="content-wrap">
-
-    </div>
-    <HowMelioraImpactWorks/>
-    <Footer/>
-    </div>
   );
 }
 
