@@ -16,6 +16,7 @@ export const ActionButton = ({text}) => {
 }
 
 
+
 export const NavButton = ({text}) => {
     return (
         <button style={{background: "none", border: "none", width: "100px", borderBottom: "solid #709E9B 3px", fontSize: "18px",
@@ -33,6 +34,7 @@ export const ActionButton = ({text}) => {
         </button>
     )
 }
+
 
 export const NavButton = ({text}) => {
     return (
@@ -67,5 +69,6 @@ fontSize: "18px",
 lineHeight: "100%"}}>{text}</button>
     )
 }
+
 
 

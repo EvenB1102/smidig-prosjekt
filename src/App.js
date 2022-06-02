@@ -38,12 +38,17 @@ import { SubscriptionPage } from "./pages/SubscriptionPage";
 import { Activity } from "./Components/Activity";
 
 
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import FaqPage from "./Components/FaqPage/FaqPage";
+
 
 
 
 function App() {
   
-
 
   const profileVolkswagen = {
     badges:[{
@@ -134,6 +139,7 @@ const mySmallElement = {
   moneyraised: 3500,
   image: icon2
 };
+
 
 
 
