@@ -12,7 +12,7 @@ import icon from "./images/icon.jpeg"
 import icon2 from "./images/bk.webp"
 import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
+
 import { BadgeCard } from "./Components/BadgeCard";
 import ProfilePage from "./Screens/ProfilePage";
 import AboutOrganization from "./Components/AboutOrganization";
@@ -41,7 +41,6 @@ import News from './Components/Pages/News';
 
 
 import About from './Components/AboutPage/About.js'
-import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent";
 import { SubscriptionPage } from "./pages/SubscriptionPage";
 
 import { Activity } from "./Components/Activity";
@@ -105,7 +104,7 @@ function App() {
         <Route path={"/Activity"} element={<Activity />}/>
         <Route path={"/Settings"} element={<SettingsPage />}/>
         <Route path={"/FAQ"} element={<FaqPage />}/>
-
+        <Route path={"/Contact"} element={<ContactPage />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
