@@ -1,5 +1,3 @@
-
-
 import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
@@ -17,7 +15,17 @@ import { SubscriptionPlan } from "./Components/SubscriptionPlan";
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
 
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
 
+
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import History from "./Components/History";
 
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
@@ -35,10 +43,6 @@ import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponen
 import { SubscriptionPage } from "./pages/SubscriptionPage";
 
 import { Activity } from "./Components/Activity";
-
-
-
-
 
 
 import LandingPage from "./Components/LandingPage/LandingPage";
@@ -110,8 +114,18 @@ function App() {
 
 export default App;
 
+function App() {
+  
 
+  return (
+    <div className="page-container">
+    <div className="content-wrap">
 
+    </div>
+    <HowMelioraImpactWorks/>
+    <Footer/>
+    </div>
+  );
+}
 
-
-
+export default App;
