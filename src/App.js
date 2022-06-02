@@ -1,4 +1,12 @@
 
+
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import Footer from "./Components/Footer";
+import "./App.css";
+import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
+import FaqPage from "./Components/FaqPage/FaqPage";
+
+
 import CharityCard from "./Components/CharityCard";
 import SmallCharityCard from "./Components/SmallCharityCard";
 import icon from "./images/icon.jpeg"
@@ -32,9 +40,9 @@ import { Activity } from "./Components/Activity";
 
 
 
+
 function App() {
   
-
 
 
   const profileVolkswagen = {
@@ -126,6 +134,7 @@ const mySmallElement = {
   moneyraised: 3500,
   image: icon2
 };
+
 
 
 
