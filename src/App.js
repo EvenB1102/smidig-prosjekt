@@ -11,9 +11,21 @@ import SmallCharityCard from "./Components/SmallCharityCard";
 import icon from "./images/icon.jpeg"
 import icon2 from "./images/bk.webp"
 import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
+
+import { ActionButton, NavButton } from "./Components/ButtonComponents";
+import { BadgeCard } from "./Components/BadgeCard";
+import ProfilePage from "./Screens/ProfilePage";
+import AboutOrganization from "./Components/AboutOrganization";
+import HowWeWork from "./Components/HowWeWork";
+import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
+import OrganizationProjects from "./Components/OrganizationProjects";
+import WelcomeComponent from "./Components/WelcomeComponent";
+import ContactPage from "./Components/ContactPage";
+
 import { SubscriptionPlan } from "./Components/SubscriptionPlan";
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
+
 
 import History from "./Components/History";
 
@@ -93,7 +105,7 @@ function App() {
         <Route path={"/Activity"} element={<Activity />}/>
         <Route path={"/Settings"} element={<SettingsPage />}/>
         <Route path={"/FAQ"} element={<FaqPage />}/>
-      
+
       </Routes>
       <Footer />
     </BrowserRouter>
