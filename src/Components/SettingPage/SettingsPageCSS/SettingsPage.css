@@ -1,0 +1,15 @@
+h1 {
+    font-size: 45px;
+    font-family: 'Euclid Circular B';
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Euclid Circular B';
+    font-weight:normal;
+}
+
+p {
+    color: grey;
+    font-family: 'Euclid Circular B';
+}

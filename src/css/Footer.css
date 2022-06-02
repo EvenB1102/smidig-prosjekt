@@ -1,0 +1,43 @@
+.main-footer {
+    bottom: 0;
+    position: relative;
+    height: fit-content;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-flow:row wrap;
+    flex: 1 0 100%;
+    background-color: none;
+    
+}
+
+.col1 {
+    flex: 0 2 16.15%;
+    
+}
+
+.col2 {
+    flex: 0 2 16.15%;
+    text-align: left;
+}
+
+.col3 {
+    flex: 0 1 33.83%;
+    text-align: center;
+}
+
+.list1 {
+    position: relative;
+    left: 60%;
+    top: 24%;
+}
+
+.list2 {
+    position: relative;
+    left: 10%;
+    top: 62%;
+}
+
