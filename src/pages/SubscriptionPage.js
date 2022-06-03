@@ -11,7 +11,7 @@ export function SubscriptionPage() {
             <img src={require("../images/Background.png")} style={{width: 2000}}/>
             </div>
             </div>
-            <p style={{display: "flex", justifyContent: "center", fontSize: 18, paddingBottom: 130}}>If you have any questions, you can either  <u style={{paddingLeft: 5, paddingRight: 5}}> contact us </u>  or we might have your answer on <u style={{paddingLeft: 5}}>frequently asked questions.</u></p>
+            <p style={{display: "flex", justifyContent: "center", fontSize: 18, paddingBottom: 130}}>If you have any questions, you can either  <a href="/Contact" style={{paddingLeft: 5, paddingRight: 5}}>contact us </a>  or we might have your answer on <a href="/Contact"><u style={{paddingLeft: 5}}>frequently asked questions.</u></a></p>
 
 
         </body>
