@@ -42,16 +42,20 @@ const Footer = () => {
                         
                     </div>
                     {/*Column3 */}
-                    <div className="col3">
-                    <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", left: "0%", color: "#001826", top: "20%"}}>Sign up for the Newsletter</p>
-                    <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", right: "25%", color: "#001826", top: "29%"}}>Email:</p>
-                    <input style={{width: "45%", height: "14%", position: "relative",left: "4%", top: "10%", background: "#ECECEC", border: "none", borderRadius:"15px" }}></input>
-                        <div style={{position: "relative", top:"12%", left: "4%"}} classname="social-media-div">
-                            <img style={{position: "relative",  width: "13%", margin:"20px"}} src={require('../images/twitter.png')} alt="logo"/>
-                            <img style={{position: "relative",  width: "13%", margin:"20px"}} src={require('../images/instagram.png')} alt="logo"/>
-                            <img style={{position: "relative",  width: "13%", margin:"20px"}} src={require('../images/facebook.png')} alt="logo"/>
-                            <hr style={{position: "relative",right: "10%", bottom: "66px", width: "15%", borderTop: "1px solid black", borderRadius: "5px", transform: "rotate(90deg)", height: "0%" }} classname="divider"></hr>
-                            <hr style={{position: "relative",left: "10%", bottom: "73px", width: "15%", borderTop: "1px solid black", borderRadius: "5px", transform: "rotate(90deg)", height: "0%" }} classname="divider"></hr>
+                    <div style={{display: "flex", flex: 1, flexDirection: "column", justifyContent: "center"}}>
+                        <div style={{display: "flex", flex: 1, justifyContent: "center", alignItems: "flex-end"}}>
+                            <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", fontWeight: "400", color: "#001826"}}>Sign up for the Newsletter</p>
+                        </div>
+                        <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
+                            <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", fontWeight: "400", color: "#001826"}}>Email</p>
+                            <input style={{width: "45%", height: 40, background: "#ECECEC", border: "none", borderRadius:"15px" }}></input>
+                        </div>
+                        <div style={{display: "flex", flex: 1, flexDirection: "row", alignSelf: "center", alignItems: "center", justifyContent: "space-between"}}>
+                            <img style={{height: 70, padding: 25}} src={require('../images/twitter.png')} alt="logo"/>
+                            <div style={{height: 100, width: 1, background: "black"}}></div>
+                            <img style={{height: 70, padding: 25}} src={require('../images/instagram.png')} alt="logo"/>
+                            <div style={{height: 100, width: 1, background: "black"}}></div>
+                            <img style={{height: 70, padding: 25}} src={require('../images/facebook.png')} alt="logo"/>
                         </div>
                     </div>
                     

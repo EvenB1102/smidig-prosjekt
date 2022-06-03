@@ -88,11 +88,13 @@ export const SubscriptionPlanStyles = {
         color: "#001826"
     },
     duration: {
+        display: "flex",
         padding: "0px 0px 3px",
         gap: "10px",
         
         width: "90px",
         height: "21px",
+        alignSelf: "flex-end",
 
 
         fontFamily: 'Euclid Circular B',
