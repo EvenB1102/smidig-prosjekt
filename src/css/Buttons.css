@@ -27,3 +27,19 @@
     background-color: #709E9B;
 }
 
+.actionbutton {
+    transition: all .1s ease-in-out;
+    border-bottom: solid #709E9B 3px;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+}
+
+
+.actionbutton:hover {
+    transition: all .1s ease-in-out;
+    border-bottom: solid #709E9B 3px;
+    cursor: pointer;
+    background-color: white;
+}
+
