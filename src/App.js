@@ -1,11 +1,13 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './component/Navbar/Navbar';
+import NewsPage from './component/NewsPage/newsPage';
+import { BrowserRouter as Router,Routes ,Route,} from 'react-router-dom';
 
-import Home from './Components/Pages/Home';
-import Explore from './Components/Pages/Explore';
-import Resources from './Components/Pages/Resources';
-import News from './Components/Pages/News';
+
+import Home from './component/Pages';
+import Explore from './component/Pages/explore';
+import Resources from './component/Pages/resources';
+import News from './component/Pages/news';
 
 
 
@@ -13,11 +15,12 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path='/' exact component={Home}/>
-        <Route path='/Explore' exact component={Explore}/>
-        <Route path='/Resources' exact component={Resources}/>
-        <Route path='/News' exact component={News}/>
+      <NewsPage />
+      <Routes >
+        <Route path='/' exact element={Home}/>
+        <Route path='/explore' element={Explore}/>
+        <Route path='/resources' element={Resources}/>
+        <Route path='/news' element={News}/>
       </Routes>
     </Router>
     

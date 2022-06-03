@@ -7,7 +7,7 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 0.3rem;
+    padding: 2rem;
     z-index: 999;
 `   
 

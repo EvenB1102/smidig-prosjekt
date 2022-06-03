@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const News = () => {
   return (
     <div style= {{
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        height:'90vh'
         }}>
-        News
+        <h1>News</h1>
     </div>
-  )
+  );
 }
 
-export default News
+export default News;
