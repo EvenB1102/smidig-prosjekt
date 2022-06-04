@@ -8,7 +8,7 @@ export function SmallCharityCard20({image, title, moneyraised, description, mone
       <div style={SmallCharityCardStyles.info}>
       <h1 style={SmallCharityCardStyles.cardtitle}>{title}</h1>
       <p style={SmallCharityCardStyles.carddescription}>{description}
-        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of {moneygoal} goal</p>
+        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of ${moneygoal} goal</p>
       </p>
       <div style={SmallCharityCardStyles.overlap}>
         <div style={SmallCharityCardStyles.greybar}></div>
@@ -30,7 +30,7 @@ export function SmallCharityCard45({image, title, moneyraised, description, mone
       <div style={SmallCharityCardStyles.info}>
       <h1 style={SmallCharityCardStyles.cardtitle}>{title}</h1>
       <p style={SmallCharityCardStyles.carddescription}>{description}
-        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of {moneygoal} goal</p>
+        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of ${moneygoal} goal</p>
       </p>
       <div style={SmallCharityCardStyles.overlap}>
         <div style={SmallCharityCardStyles.greybar}></div>
@@ -52,7 +52,7 @@ export function SmallCharityCard70({image, title, moneyraised, description, mone
       <div style={SmallCharityCardStyles.info}>
       <h1 style={SmallCharityCardStyles.cardtitle}>{title}</h1>
       <p style={SmallCharityCardStyles.carddescription}>{description}
-        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of {moneygoal} goal</p>
+        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of ${moneygoal} goal</p>
       </p>
       <div style={SmallCharityCardStyles.overlap}>
         <div style={SmallCharityCardStyles.greybar}></div>
@@ -74,7 +74,7 @@ export function SmallCharityCard90({image, title, moneyraised, description, mone
       <div style={SmallCharityCardStyles.info}>
       <h1 style={SmallCharityCardStyles.cardtitle}>{title}</h1>
       <p style={SmallCharityCardStyles.carddescription}>{description}
-        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of {moneygoal} goal</p>
+        <p style={SmallCharityCardStyles.moneyraised}>${moneyraised} USD raised of ${moneygoal} goal</p>
       </p>
       <div style={SmallCharityCardStyles.overlap}>
         <div style={SmallCharityCardStyles.greybar}></div>
@@ -163,7 +163,7 @@ carddescription: {
 moneyraised: {
   marginTop: 10,
   padding: 0,
-  width: "250px",
+  width: "255px",
   height: "19px",
   
   fontFamily: 'Euclid Circular B',

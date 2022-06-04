@@ -1,4 +1,4 @@
-import Charity from "../css/Charity.css"
+//import Charity from "../css/Charity.css"
 import buildingicon from "../images/building-icon.png"
 
 import { ActionButton, DonationButton } from "./ButtonComponents";
@@ -90,7 +90,8 @@ export const CharityCardStyles = {
     flexDirection: "row",
     alignItems:"center",
     padding: "10px 10px 0px 10px",
-    gap: "10px",
+    gap: "9px",
+    justifyContent: "space-around",
 
     width: "205px",
     height: "24px",

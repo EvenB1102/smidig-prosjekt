@@ -1,0 +1,13 @@
+.links{
+    list-style-type: none;
+    
+}
+
+.faqpage li {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.faqpage li:active {
+    color: #709E9B;
+}

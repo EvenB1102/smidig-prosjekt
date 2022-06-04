@@ -11,30 +11,19 @@ const Navbar = () => {
                 <img src={require('../Images/Logo.png')} alt="logo"/>
             </NavLink>
             <Bars />
-            <div style= {{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                }}>
-                <input
-                    type="text"
-                    id="header-search"
-                    placeholder="Search"
-                    name="search" 
-                    />
-            </div>
+
             <NavMenu>
-                <NavLink to="/Explore" activeStyle>
-                    Explore
-                </NavLink>
                 <NavLink to="/About" activeStyle>
                     About
                 </NavLink>
-                <NavLink to="/Resources" activeStyle>
-                    Resources
+                <NavLink to="/Explore" activeStyle>
+                    Explore
                 </NavLink>
-                <NavLink to="/News" activeStyle>
-                    News
+                <NavLink to="/Donation" activeStyle>
+                    Donation
+                </NavLink>
+                <NavLink to="/Organization" activeStyle>
+                    Organization
                 </NavLink>
             </NavMenu>
             <NavBtn>

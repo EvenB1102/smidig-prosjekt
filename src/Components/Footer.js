@@ -9,7 +9,7 @@ const Footer = () => {
                 
                     {/*Column1 */}
                     <div className="col1">
-                        <p style={{fontFamily: "Euclid Circular B", fontSize: "36px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", left: "60%", top: "15%"}}>Navigate</p>
+                        <p style={{fontFamily: "Euclid Circular B", fontSize: "36px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", left: "60%", top: "15%", color: "#001826"}}>Navigate</p>
                         <div className="list1">
                             <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Home</button>
                             <br></br><br></br>

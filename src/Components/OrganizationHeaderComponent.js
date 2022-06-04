@@ -1,5 +1,9 @@
 import React from 'react'
 import { NavButton } from './ButtonComponents'
+import window1 from '../images/window1.png'
+import FacebookLogo from '../images/FacebookLogo.png'
+import InstaLogo from '../images/InstaLogo.png'
+import TwitterLogo from '../images/TwitterLogo.png'
 import OrganizationHeaderStyle from "../css/OrganizationHeaderStyle.css"
 
 const OrganizationHeaderComponent = () => {
@@ -15,13 +19,13 @@ const OrganizationHeaderComponent = () => {
                                 <h6>Redd Cross</h6>
                         </div>
                         <div className="socialsContainer">
-                            <img src="" alt="W"></img>
+                            <img src={window1} alt="W"></img>
                             <div className="statsDivider"></div>
-                            <img src="" alt="F"></img>
+                            <img src={FacebookLogo} alt="F"></img>
                             <div className="statsDivider"></div>
-                            <img src="" alt="I"></img>
+                            <img src={InstaLogo} alt="I"></img>
                             <div className="statsDivider"></div>
-                            <img src="" alt="T"></img>
+                            <img src={TwitterLogo} alt="T"></img>
                         </div>
                     </div>
                     <div className="profileDescription">

@@ -1,57 +1,35 @@
+import Footer from "./Components/Footer";
+import "./App.css";
+import FaqPage from "./Components/FaqPage/FaqPage";
+import SettingsPage from "./Components/SettingPage/SettingsPage.js"
 
-import CharityCard from "./Components/CharityCard";
-import SmallCharityCard from "./Components/SmallCharityCard";
-import icon from "./images/icon.jpeg"
-import icon2 from "./images/bk.webp"
-import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
-import { SubscriptionPlan } from "./Components/SubscriptionPlan";
+import ContactPage from "./Components/ContactPage";
+
+
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
 
 
 
+
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import Home from './Components/Pages/Home';
-import Explore from './Components/Pages/Explore';
-import Resources from './Components/Pages/Resources';
-import News from './Components/Pages/News';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
 
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import Footer from "./Components/Footer";
-import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
-import { BadgeCard } from "./Components/BadgeCard";
-import ProfilePage from "./Screens/ProfilePage";
-import AboutOrganization from "./Components/AboutOrganization";
-import HowWeWork from "./Components/HowWeWork";
-import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
-import OrganizationProjects from "./Components/OrganizationProjects";
-import WelcomeComponent from "./Components/WelcomeComponent";
+import About from './Components/AboutPage/About.js'
+import { SubscriptionPage } from "./pages/SubscriptionPage";
 
+import { Activity } from "./Components/Activity";
+
+
+import LandingPage from "./Components/LandingPage/LandingPage";
+import OrganizationPage from "./Components/OrganizationPage/OrganizationPage.js";
 
 
 
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact component={Home}/>
-        <Route path={"/Explore"} element={<ExplorationPage />}/>
-        <Route path={"/Donation"} element={<DonationPage />}/>
-        <Route path='/News' exact component={News}/>
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-    
-    
-  );
-
+  
 
   const profileVolkswagen = {
     badges:[{
@@ -90,70 +68,26 @@ function App() {
 }
 
   return (
-    <div>
-      <WelcomeComponent></WelcomeComponent>
-    </div>
-
-    /**
-    <div>
-      <ProfilePage data={profileVolkswagen}></ProfilePage>
-      <div style={{display: "flex", flex: 1, justifyContent: "center"}}>
-      
-      </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<LandingPage />}/>*/
+        <Route path={"/Explore"} element={<ExplorationPage />}/>
+        <Route path={"/Donation"} element={<DonationPage />}/>
+        <Route path={"/About"} element={<About />}/>
+        <Route path={"/Subscription"} element={<SubscriptionPage />}/>
+        <Route path={"/Organization"} element={<OrganizationPage />}/>
+        <Route path={"/Activity"} element={<Activity />}/>
+        <Route path={"/Settings"} element={<SettingsPage />}/>
+        <Route path={"/FAQ"} element={<FaqPage />}/>
+        <Route path={"/Contact"} element={<ContactPage />}/> 
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+    
+    
+    );
+  }
   
-    {/* <BadgeCard color={"#fee296"} badgetitle={"Insert Badge Title"}
-    backgroundColor={"rgb(255, 184, 0, 0.15)"}
-    text={"This is an example description of what the badge represent"} 
-    badgedate={"12/07/21"} 
-    badgegiver={"Red Cross"}>
-    </BadgeCard>
-    <BadgeCard color={"#fee296"} badgetitle={"Insert Badge Title"}
-    backgroundColor={"rgb(255, 184, 0, 0.15)"}
-    text={"This is an example description of what the badge represent"} 
-    badgedate={"12/07/21"} 
-    badgegiver={"Red Cross"}>
-    </BadgeCard> }
-    </div> 
-    */
-  );
-}
-
-export default App;
-
-
-const myElement = {
-  title: "Education 4All",
-  description: "Our donation goal of building 10 more schools in Africa has been achieved. Meloria Impact are grateful for all...",
-  daysleft: 11,
-  completeness: 3,
-  image: icon
-};
-
-const mySmallElement = { 
-  title: "Building a water well in Kajone’n",
-  description: "Kajone’n in West Africa needs a new water well for its inhabitants",
-  moneygoal: 20000,
-  moneyraised: 3500,
-  image: icon2
-};
-
-const monthlySubscriptionPlan = {
-  price: "10.49",
-  duration: "Monthly",
-  firstdot: "Access to every organisation", 
-  seconddot: "Donation limit uncapped", 
-  thirddot: "Donation statistics", 
-  fourthdot: "Badges", 
-  fifthdot: "Premium support"
-}
-
-const yearlySubscriptionPlan = {
-  price: "89.99",
-  duration: "Annually",
-  firstdot: "Access to every organisation", 
-  seconddot: "Donation limit uncapped", 
-  thirddot: "Donation statistics", 
-  fourthdot: "Badges", 
-  fifthdot: "Premium support"
-}
-
+  export default App;
+  
