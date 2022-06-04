@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Explore = () => {
+const Settings = () => {
   return (
     <div style= {{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'
         }}>
-        Explore
+        Settings
     </div>
   )
 }
 
-export default Explore
+export default Settings

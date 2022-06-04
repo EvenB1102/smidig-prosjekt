@@ -5,7 +5,7 @@ import { BrowserRouter as Router,Routes ,Route,} from 'react-router-dom';
 
 
 import Home from './component/Pages';
-import Explore from './component/Pages/explore';
+import Settings from './component/Pages/Settings';
 import Resources from './component/Pages/resources';
 import News from './component/Pages/news';
 
@@ -18,9 +18,12 @@ function App() {
       <NewsPage />
       <Routes >
         <Route path='/' exact element={Home}/>
-        <Route path='/explore' element={Explore}/>
         <Route path='/resources' element={Resources}/>
-        <Route path='/news' element={News}/>
+        <Route path='/settings' element={Settings}/>
+        <Route path='/profile' element={Resources}/>
+        <Route path='/settings' element={News}/>
+        <Route path='/subscription' element={Resources}/>
+        <Route path='/log-in' element={News}/>
       </Routes>
     </Router>
     
