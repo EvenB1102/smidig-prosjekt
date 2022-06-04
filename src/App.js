@@ -1,5 +1,5 @@
 import Footer from "./Components/Footer";
-import "./App.css";
+
 import FaqPage from "./Components/FaqPage/FaqPage";
 import SettingsPage from "./Components/SettingPage/SettingsPage.js"
 
