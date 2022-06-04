@@ -2,7 +2,7 @@ import React from 'react'
 import AboutUs from '../AboutUs'
 import HowWeWork from '../HowWeWork'
 import OrganizationHeaderComponent from '../OrganizationHeaderComponent'
-import organizationCards  from '../../pages/DonationPage'
+//import organizationCards  from '../../pages/DonationPage'
 import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../SmallCharityCard'
 import icon from "../../images/icon.jpeg"
 
@@ -11,19 +11,19 @@ import icon from "../../images/icon.jpeg"
 const OrganizationPage = () => {
   return (
     <div>
-        <OrganizationHeaderComponent/>
-        <AboutUs/>
 
-        <HowWeWork/>
+<OrganizationHeaderComponent/>
+<AboutUs/>
+<HowWeWork/>
 
-<div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>
-        <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 130, overflow: "hidden"}}>
-            {ongoingFundraisers()}
-            <img src={require("../../images/Ellipse.png")} style={{position: "absolute", zIndex: "-1", top: 780, left: -700}}/>
+  <div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>
+          <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 130}}>
+              {ongoingFundraisers()}
+              <img src={require("../../images/Ellipse.png")} style={{position: "absolute", zIndex: "-1", top: 780, left: -700}}/>
 
-            {completedFundraisers()}
-        </div>
-        </div>
+              {completedFundraisers()}
+          </div>
+          </div>
         
         
         

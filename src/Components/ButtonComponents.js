@@ -1,4 +1,4 @@
-import Buttons from "../css/Buttons.css"
+import "../css/Buttons.css"
 
 export const ActivityButtons = ({text, color, icon, textcolor}) => {
     return (
@@ -8,7 +8,7 @@ export const ActivityButtons = ({text, color, icon, textcolor}) => {
 
 export const ActionButton = ({text}) => {
     return (
-        <button style={{background: "#709E9B" , border: "none", width: "176px", height: "56px", borderRadius: "8px",
+        <button className="actionbutton" style={{background: "#709E9B" , border: "none", width: "176px", height: "56px", borderRadius: "8px",
         fontSize: "18px", fontFamily: "sans-serif", fontWeight: "600", color: "#FFFFFF"}}>
         {text}
         </button>
@@ -19,7 +19,7 @@ export const ActionButton = ({text}) => {
 
 export const DonationButton = ({text}) => {
     return (
-        <button style={{alignItems:"center",
+        <a href="/Donation"><button className="donationbutton" style={{alignItems:"center",
     padding: "16px 24px",
 gap: "8px",
 
@@ -38,7 +38,7 @@ fontFamily: 'Euclid Circular B',
 fontStyle: "normal",
 fontWeight: 600,
 fontSize: "18px",
-lineHeight: "100%"}}>{text}</button>
+lineHeight: "100%"}}>{text}</button></a>
     )
 }
 

@@ -7,6 +7,7 @@ import Vector4 from '../images/Vector4.png'
 
 const HowWeWork = () => {
     return (
+        <div className="workwork">
         <div className="work-section">
             <div className="work-container">
                 <div className="work-content-section">
@@ -24,6 +25,7 @@ const HowWeWork = () => {
                     <img src={Vector4} alt=""></img>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

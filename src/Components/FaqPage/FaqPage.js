@@ -5,7 +5,7 @@ import elipse6 from "./FaqPageImages/Ellipse6.png"
 
 const FaqPage = () => {
   return (
-    <div>
+    <div className="faqpage">
     <img style={{display: "flex", position: "absolute", justifyContent: "flex-end", bottom: "-370px", right: "-100px"}} src={elipse6} alt="" />
     <div style={{padding: "30px",}}>
     <></>    

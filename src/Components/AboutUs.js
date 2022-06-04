@@ -4,6 +4,7 @@ import image33 from "../images/image33.png"
 
 const AboutUs = () => {
     return (
+        <div className="aboutabout">
         <div className="section">
             <div className="container">
                 <div className="content-section">
@@ -18,6 +19,7 @@ const AboutUs = () => {
                     <img style={{maxWidth: "309px", height: "auto"}} src={image33} alt="Organization"/>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
