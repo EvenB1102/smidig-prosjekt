@@ -14,7 +14,7 @@ import  './LandingCSS/LandingPage.css'
 const LandingPage = () => {
   return (
     
-    <div>
+    <div className='shahid-landing-div'>
         <div>
             <img style={{width: "100%"}} src={landingImg} alt="" />
         </div>    

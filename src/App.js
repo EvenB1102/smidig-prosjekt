@@ -1,43 +1,19 @@
-import { ActionButton, NavButton } from "./Components/ButtonComponents";
 import Footer from "./Components/Footer";
 import "./App.css";
-import HowMelioraImpactWorks from "./Components/HowMelioraImpactWorks";
-import FaqPage from "./Components/FaqPage/FaqPage";
+/*import FaqPage from "./Components/FaqPage/FaqPage";
 import SettingsPage from "./Components/SettingPage/SettingsPage.js"
 
-
-import CharityCard from "./Components/CharityCard";
-import SmallCharityCard from "./Components/SmallCharityCard";
-import icon from "./images/icon.jpeg"
-import icon2 from "./images/bk.webp"
-import ProfileHeaderComponent from "./Components/ProfileHeaderComponent";
+import ContactPage from "./Components/ContactPage";*/
 
 
-import { BadgeCard } from "./Components/BadgeCard";
-import ProfilePage from "./Screens/ProfilePage";
-import AboutOrganization from "./Components/AboutOrganization";
-import HowWeWork from "./Components/HowWeWork";
-import OrganizationHeaderComponent from "./Components/OrganizationHeaderComponent"
-import OrganizationProjects from "./Components/OrganizationProjects";
-import WelcomeComponent from "./Components/WelcomeComponent";
-import ContactPage from "./Components/ContactPage";
-
-import { SubscriptionPlan } from "./Components/SubscriptionPlan";
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
 
 
-import History from "./Components/History";
+
 
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
-
-import Home from './Components/Pages/Home';
-import Explore from './Components/Pages/Explore';
-import Resources from './Components/Pages/Resources';
-import News from './Components/Pages/News';
-
-
 
 
 import About from './Components/AboutPage/About.js'
@@ -95,22 +71,23 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<LandingPage />}/>
+        <Route path='/' exact element={<LandingPage />}/>*/
         <Route path={"/Explore"} element={<ExplorationPage />}/>
         <Route path={"/Donation"} element={<DonationPage />}/>
         <Route path={"/About"} element={<About />}/>
-        <Route path={"/Organization"} element={<OrganizationPage />}/>
         <Route path={"/Subscription"} element={<SubscriptionPage />}/>
-        <Route path={"/Activity"} element={<Activity />}/>
-        <Route path={"/Settings"} element={<SettingsPage />}/>
-        <Route path={"/FAQ"} element={<FaqPage />}/>
-        <Route path={"/Contact"} element={<ContactPage />}/>
+        <Route path={"/Organization"} element={<OrganizationPage />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
     
     
-  );
-}
-
-export default App;
+    );
+  }
+  
+  export default App;
+  
+/*  <Route path={"/Activity"} element={<Activity />}/>
+  <Route path={"/Settings"} element={<SettingsPage />}/>
+  <Route path={"/FAQ"} element={<FaqPage />}/>
+  <Route path={"/Contact"} element={<ContactPage />}/> */
