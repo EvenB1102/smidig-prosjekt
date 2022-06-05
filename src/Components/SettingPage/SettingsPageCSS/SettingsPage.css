@@ -13,3 +13,14 @@
     color: grey;
     font-family: 'Euclid Circular B';
 }
+
+.activediv:hover {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(237, 203, 177, 0.2);
+}
+
+.youraccount {
+    background-color: rgba(112,	158,	155, 0.6);
+    padding: 0;
+}
