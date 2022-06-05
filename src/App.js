@@ -81,7 +81,7 @@ function App() {
         <Route path={"/Settings"} element={<SettingsPage />}/>
         <Route path={"/FAQ"} element={<FaqPage />}/>
         <Route path={"/Contact"} element={<ContactPage />}/> 
-        <Route path={"/news"} element={<NewsPage />}/> 
+        <Route path={"/News"} element={<NewsPage />}/> 
       </Routes>
       <Footer />
     </BrowserRouter>

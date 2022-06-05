@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HowMelioraImpactWorks = () => {
     return(
@@ -28,7 +29,9 @@ const HowMelioraImpactWorks = () => {
                                 <p style={{fontFamily: "Euclid Circular B", fontSize: "28px", fontStyle: "normal", lineHeight: "120%", fontWeight: "600", position: "relative", color: "#001826", lineWidth: "10%"}}>2. Agree on an amount</p>
                                 <p style={{fontFamily: "Euclid Circular B", fontSize: "18px", fontStyle: "normal", lineHeight: "135%", fontWeight: "400", position: "relative", color: "#0E161B"}}>Come up with an amount that<br></br> you as an organization are<br></br> willing to donate</p>
                                 <br></br><br></br><br></br><br></br><br></br>
+                                <Link to="/Subscription">
                                 <button style={{fontFamily: "Euclid Circular B", fontSize: "18px", fontStyle: "normal", lineHeight: "120%", fontWeight: "600",color: "#FFFFFF",border: "none",backgroundColor: "#709E9B", width: "176px", height: "56px", borderRadius: "8px", position: "relative", left: "8%"}}>Get started</button>
+                                </Link>
                                 <br></br><br></br><br></br><br></br>
                             </div>
                     </div>

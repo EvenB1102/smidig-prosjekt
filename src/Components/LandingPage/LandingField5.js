@@ -22,7 +22,7 @@ const LandingField5 = () => {
                 
                 {/*Dette skal bli en link*/}
                 <div style={{display: "flex", flexDirection: "row", justifyContent:"flex-end", alignItems: "center ", paddingRight: "20px"  }} >
-                  <Link to="/news">
+                  <Link to="/News">
                 <p style={{color: "#34B3EF", }}>Read more&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <img style={{ height: "20px", width: "20px" }} src={LinkImg} alt=""/>
                 </Link>
