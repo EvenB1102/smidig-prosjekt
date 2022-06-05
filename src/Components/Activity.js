@@ -6,7 +6,7 @@ import History from "./History";
 
 export function Activity() {
     return (
-        <div>
+        <div style={{display: "flex", flexDirection: "column", justifyContent: "center"}}>
             <div style={{paddingLeft: 80}}>
             <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
                 <h1>Activity</h1>
