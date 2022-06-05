@@ -22,12 +22,10 @@
 }
 .profileContent {
     height: 200px;
-    top: 200px;
 }
 .profileDetails {
     width: 390px;
     display: flex;
-    margin-bottom: 30px;
     justify-content: space-between;
 }
 .profileDetails .organizationName {
@@ -39,7 +37,7 @@
     justify-content: space-between;
     border: solid black .5px;
     border-radius: 10px;
-    height: 21px;
+    height: 22px;
     width: 146px;
 }
 .profileDetails .socialsContainer .statsDivider{
@@ -56,21 +54,21 @@
     font-weight: 500;
     line-height: 17px;
     letter-spacing: .03em;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .profileDescription .statsBar {
     display: flex;
-    margin-top: 10px;
+
     padding: 18px;
     border: solid black .5px; 
     justify-content: space-between; 
     width: 361px; 
     align-items: center; 
-    height: 53px; 
+    height: 33px; 
     border-radius: 10px;
 }
 .profileDescription .statsBar .statsDivider {
-    height: 250%;
+    height: 210%;
     width: 0.5px;
     background: black;
 }

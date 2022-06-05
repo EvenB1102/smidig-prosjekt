@@ -46,9 +46,11 @@ lineHeight: "100%"}}>{text}</button></a>
 
 
 
-export const NavButton = ({text}) => {
+export const NavButton = ({text, border}) => {
     return (
-        <button className="navButton">{text}</button>
+        <button style={{background: "none", border: "none", width: "100px", borderBottom: border, fontSize: "18px",
+        fontFamily: "sans-serif", fontWeight: "500", color: "#001826", margin: "20px", padding: "20px 0px 20px 0px"
+        }}>{text}</button>
     )
 }
 
