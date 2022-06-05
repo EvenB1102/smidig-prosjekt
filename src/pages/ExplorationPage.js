@@ -14,7 +14,7 @@ function ExplorationPage() {
         </main>
 
         <div style={{display: "flex", justifyContent: "center", gap: "30px"}}>
-        <a href="/Explore"><NavButton text="All" /></a>
+        <a href="/Explore"><NavButton text="All" border={"solid #709E9B 3px"}  /></a>
         <a href="/Explore"><NavButton text="Education" /></a>
         <a href="/Explore"><NavButton text="Water" /></a>
         </div>

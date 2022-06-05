@@ -2,7 +2,6 @@ import React from 'react'
 import AboutUs from '../AboutUs'
 import HowWeWork from '../HowWeWork'
 import OrganizationHeaderComponent from '../OrganizationHeaderComponent'
-//import organizationCards  from '../../pages/DonationPage'
 import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../CharityCards/SmallCharityCard'
 import icon from "../../images/icon.jpeg"
 
@@ -33,16 +32,6 @@ const OrganizationPage = () => {
 
 export default OrganizationPage;
 
-function recommendedFundraisers() {
-  return <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", width: 1000 }}>
-      <h1 style={{ padding: 0, margin: 0 }}>Recommended fundraisers</h1>
-      <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
-          <SmallCharityCard20 {...myElement} />
-          <SmallCharityCard45 {...myElement} />
-          <p style={DonationStyles.seemore}>See more</p>
-      </div>
-  </div>;
-}
 
 function completedFundraisers() {
   return <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", width: 1000 }}>
@@ -50,7 +39,7 @@ function completedFundraisers() {
       <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
           <SmallCharityCardComplete {...myElement} />
           <SmallCharityCardComplete {...myElement} />
-          <p style={DonationStyles.seemore}>See more</p>
+          <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
       </div>
   </div>;
 }
@@ -61,7 +50,7 @@ function ongoingFundraisers() {
       <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
           <SmallCharityCard20 {...myElement} />
           <SmallCharityCard45 {...myElement} />
-          <p style={DonationStyles.seemore}>See more</p>
+          <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
       </div>
   </div>;
 }

@@ -3,9 +3,9 @@ import AboutUs from '../AboutUs'
 import HowWeWork from '../HowWeWork'
 import OrganizationHeaderComponent from '../OrganizationHeaderComponent'
 //import organizationCards  from '../../pages/DonationPage'
-import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../SmallCharityCard'
+import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../../Components/CharityCards/SmallCharityCard'
 import icon from "../../images/icon.jpeg"
-import CharityCard from '../CharityCard'
+import CharityCard from '../../Components/CharityCards/CharityCard'
 import icon2 from "../../images/bk.webp"
 
 

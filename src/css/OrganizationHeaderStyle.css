@@ -39,9 +39,10 @@
     border-radius: 10px;
     height: 22px;
     width: 146px;
+    padding: 7px;
 }
 .profileDetails .socialsContainer .statsDivider{
-    height: 100%;
+    height: 130%;
     width: 0.5px;
     background: black;
 }
