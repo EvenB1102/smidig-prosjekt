@@ -37,7 +37,7 @@ const Footer = () => {
                     
                     {/*Column2 */}
                     <div className="col3">
-                    <img style={{position: "relative", top: "32%"}} src={require('../images/logo.png')} alt="logo"/>
+                    <img style={{position: "relative", top: "32%"}} src={require('../images/logoFooter.png')} alt="logo"/>
                         <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", right: "1%", color: "#001826", top: "30%"}}>Meliora Impact</p>
                         
                     </div>
