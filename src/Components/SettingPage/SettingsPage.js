@@ -11,7 +11,7 @@ const SettingsPage = () => {
       <SettingsLeft/>
       <SettingsRight/>
     </div>
-    <Footer/>
+    
 
     </div>
   )

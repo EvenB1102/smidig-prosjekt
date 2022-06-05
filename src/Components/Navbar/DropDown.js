@@ -4,7 +4,7 @@ import "./DropDown.css";
 const DropDown = () => {
   return (
     <>
-      <div class="dropdown" style={{ zIndex: 99, bottom: "28px" }}>
+      <div class="dropdown" style={{ zIndex: 99, bottom: "28px", left:"-30px" }}>
         <button class="dropbtn">
           <img src={require("../../images/Profileicon.png")} alt="logo" style={{width:"40px", height:"40px", borderRadius:"50%"}}/>
         </button>

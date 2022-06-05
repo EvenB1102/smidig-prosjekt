@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, NavLink, Bars, NavMenu } from "./features";
 import DropDown from "./DropDown";
+import { NavButton } from "../ButtonComponents";
 
 
 const Navbar = () => {
@@ -27,13 +28,14 @@ const Navbar = () => {
         </div>
         <NavMenu>
           <NavLink to="/explore" activeStyle>
+            
             Explore
           </NavLink>
           <NavLink to="/about" activeStyle>
             About
           </NavLink>
-          <NavLink to="/resources" activeStyle>
-            Resources
+          <NavLink to="/donation" activeStyle>
+            Donation
           </NavLink>
           <NavLink to="/news" activeStyle>
             News
