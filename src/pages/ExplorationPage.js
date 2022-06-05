@@ -1,8 +1,7 @@
-import CharityCard from "../Components/CharityCard";
+import CharityCard from "../Components/CharityCards/CharityCard"
 import icon from "../images/icon.jpeg"
 import icon2 from "../images/bk.webp"
 import hero from "../images/Hero.png"
-import { NavBtn } from "../Components/Navbar/features";
 import { NavButton } from "../Components/ButtonComponents";
 
 

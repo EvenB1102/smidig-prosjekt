@@ -4,6 +4,7 @@ import news2 from './LandingPageImages/news2.png'
 import news3 from './LandingPageImages/news3.png'
 import news4 from './LandingPageImages/news4.png'
 import LinkImg from './LandingPageImages/LinkImg.png'
+import { Link } from 'react-router-dom'
 
 const LandingField5 = () => {
   return (
@@ -21,8 +22,10 @@ const LandingField5 = () => {
                 
                 {/*Dette skal bli en link*/}
                 <div style={{display: "flex", flexDirection: "row", justifyContent:"flex-end", alignItems: "center ", paddingRight: "20px"  }} >
+                  <Link to="/News">
                 <p style={{color: "#34B3EF", }}>Read more&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <img style={{ height: "20px", width: "20px" }} src={LinkImg} alt=""/>
+                </Link>
                 </div>
             </div>
         </div>

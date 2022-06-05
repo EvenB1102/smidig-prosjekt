@@ -12,13 +12,13 @@
   background-color: #ffffff;
 }
 
-.container {
+.news-container {
   position: relative;
   text-align: center;
   height: 200px;
   z-index: 5;
 }
-.container img {
+.news-container-img {
   width: 100%;
   height: 300px;
 }
@@ -39,7 +39,7 @@
   }
 .column {
   float: left;
-  width: 25%;
+  width: 23%;
   padding: 5px;
   margin:10rem 0rem;
   position: relative;

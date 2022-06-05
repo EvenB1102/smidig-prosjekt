@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/Footer.css";
 
 const Footer = () => {
@@ -11,12 +12,18 @@ const Footer = () => {
                     <div className="col1">
                         <p style={{fontFamily: "Euclid Circular B", fontSize: "36px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", left: "60%", top: "15%", color: "#001826"}}>Navigate</p>
                         <div className="list1">
-                            <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Home</button>
+                        <Link to ="/FAQ">
+                            <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>FAQ</button>
+                            </Link>
                             <br></br><br></br>
+                            <Link to ="/about">
                             <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>About</button>
+                            </Link>
                             <br></br><br></br>
+                            <Link to ="/contact">
                             <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Contact</button>
                             <hr style={{position: "relative",right: "7%", bottom: "67px", width: "35%", borderTop: "1px solid black", borderRadius: "5px", transform: "rotate(90deg)", height: "0%" }} classname="divider"></hr>
+                            </Link>
                         </div>
                         
                        
@@ -26,18 +33,20 @@ const Footer = () => {
                     
                     <div className="col2">
                         <div className="list2">
-                            <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Questions</button>
+                            <Link to="/FAQ">
+                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Questions</button>
+                            </Link>
                             <br></br><br></br>
                             <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Terms & Conditions</button>
                             <br></br><br></br>
-                            <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Lorem ipsum</button>
+                            <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", lineHeight: "120%", fontWeight: "300",color: "#001826",border: "none",backgroundColor: "white"}}>Subscription</button>
                         </div>
                         </div>
                     
                     
                     {/*Column2 */}
                     <div className="col3">
-                    <img style={{position: "relative", top: "32%"}} src={require('../images/logo.png')} alt="logo"/>
+                    <img style={{position: "relative", top: "32%"}} src={require('../images/logoFooter.png')} alt="logo"/>
                         <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", lineHeight: "120%", fontWeight: "400", position: "relative", right: "1%", color: "#001826", top: "30%"}}>Meliora Impact</p>
                         
                     </div>

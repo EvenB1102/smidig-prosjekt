@@ -1,7 +1,7 @@
 //import Charity from "../css/Charity.css"
-import buildingicon from "../images/building-icon.png"
+import buildingicon from "../../images/building-icon.png"
 
-import { ActionButton, DonationButton } from "./ButtonComponents";
+import { DonationButton } from "../ButtonComponents";
 
 
 

@@ -1,5 +1,5 @@
-import CharityCard from "../Components/CharityCard";
-import SmallCharityCard, { SmallCharityCard20, SmallCharityCard45, SmallCharityCard70, SmallCharityCard90, SmallCharityCardComplete } from "../Components/SmallCharityCard";
+
+import { SmallCharityCard20, SmallCharityCard45, SmallCharityCardComplete } from "../Components/CharityCards/SmallCharityCard";
 import icon from "../images/icon.jpeg"
 
 

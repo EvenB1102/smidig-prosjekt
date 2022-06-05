@@ -13,7 +13,7 @@ import {ProfilePage} from "./Components/ProfilePage.js"
 
 
 
-import Navbar from './component/Navbar/Navbar.js';
+import Navbar from './Components/Navbar/Navbar.js';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
 
@@ -25,7 +25,7 @@ import { Activity } from "./Components/Activity";
 
 import LandingPage from "./Components/LandingPage/LandingPage";
 import OrganizationPage from "./Components/OrganizationPage/OrganizationPage.js";
-
+import NewsPage from './Components/NewsPage/newsPage'
 
 
 
@@ -83,10 +83,9 @@ function App() {
         <Route path={"/FAQ"} element={<FaqPage />}/>
         <Route path={"/Contact"} element={<ContactPage />}/> 
         <Route path={"/Profile"} element={<ProfilePage />}/> 
-        
-
 
         <Route path={"/OrganizationProjects"} element={<OrganizationProjects />}/>
+        <Route path={"/News"} element={<NewsPage />}/> 
       </Routes>
       <Footer />
     </BrowserRouter>
