@@ -3,7 +3,7 @@ import AboutUs from '../AboutUs'
 import HowWeWork from '../HowWeWork'
 import OrganizationHeaderComponent from '../OrganizationHeaderComponent'
 //import organizationCards  from '../../pages/DonationPage'
-import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../SmallCharityCard'
+import SmallCharityCardComplete, { SmallCharityCard20, SmallCharityCard45 } from '../CharityCards/SmallCharityCard'
 import icon from "../../images/icon.jpeg"
 
 

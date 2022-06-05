@@ -6,7 +6,7 @@ const DropDown = () => {
     <>
       <div class="dropdown" style={{ zIndex: 99, bottom: "28px" }}>
         <button class="dropbtn">
-          <img src={require("../Images/Profileicon.png")} alt="logo" style={{width:"40px", height:"40px", borderRadius:"50%"}}/>
+          <img src={require("../../images/Profileicon.png")} alt="logo" style={{width:"40px", height:"40px", borderRadius:"50%"}}/>
         </button>
         <div class="dropdown-content">
           <a href="/profile">Profile</a>

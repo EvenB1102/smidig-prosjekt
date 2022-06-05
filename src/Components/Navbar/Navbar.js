@@ -1,39 +1,48 @@
-import React from 'react'
-import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from './features';
-
-
+import React from "react";
+import { Nav, NavLink, Bars, NavMenu } from "./features";
+import DropDown from "./DropDown";
 
 const Navbar = () => {
   return (
     <>
-        <Nav>
-            <NavLink to="/">
-                <img src={require('../Images/Logo.png')} alt="logo"/>
-            </NavLink>
-            <Bars />
+      <Nav>
+        <NavLink to="/">
+          <img src={require("../../images/Logo.png")} alt="logo" />
+        </NavLink>
+        <Bars />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <input
+            type="text"
+            id="header-search"
+            placeholder="Search"
+            name="search"
+          />
+        </div>
+        <NavMenu>
+          <NavLink to="/explore" activeStyle>
+            Explore
+          </NavLink>
+          <NavLink to="/about" activeStyle>
+            About
+          </NavLink>
+          <NavLink to="/resources" activeStyle>
+            Resources
+          </NavLink>
+          <NavLink to="/news" activeStyle>
+            News
+          </NavLink>
+        </NavMenu>
 
-            <NavMenu>
-                <NavLink to="/About" activeStyle>
-                    About
-                </NavLink>
-                <NavLink to="/Explore" activeStyle>
-                    Explore
-                </NavLink>
-                <NavLink to="/Donation" activeStyle>
-                    Donation
-                </NavLink>
-                <NavLink to="/Organization" activeStyle>
-                    Organization
-                </NavLink>
-            </NavMenu>
-            <NavBtn>
-                <NavBtnLink to="/profile-sign-in">
-                    Sign in
-                </NavBtnLink>
-            </NavBtn>
-        </Nav>
+        <DropDown />
+      </Nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

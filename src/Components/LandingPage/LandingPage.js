@@ -1,8 +1,6 @@
 import React from 'react'
 import landingImg from "./LandingPageImages/LandingImg.png"
-import {ActionButton} from "../../Components/ButtonComponents.js"
-import CharityCard from "../../Components/CharityCard.js"
-import Footer from "../../Components/Footer"
+
 import HowMelioraImpactWorks from '../HowMelioraImpactWorks'
 import LandingField1 from './LandingField1'
 import LandingField2 from './LandingField2'

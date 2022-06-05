@@ -1,5 +1,5 @@
 import React from 'react'
-import CharityCard from '../CharityCard'
+import CharityCard from '../CharityCards/CharityCard'
 import icon from "../../images/icon.jpeg"
 
 

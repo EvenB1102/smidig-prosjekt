@@ -12,7 +12,7 @@ import DonationPage from "./pages/DonationPage";
 
 
 
-import Navbar from './component/Navbar/Navbar.js';
+import Navbar from './Components/Navbar/Navbar.js';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
 
