@@ -8,7 +8,7 @@ import OrganizationHeaderStyle from "../css/OrganizationHeaderStyle.css"
 
 const OrganizationHeaderComponent = () => {
     return (
-        <div className="organizationContainer">
+        <div className="organizationContainer" style={{paddingBottom: 150}}>
             <div className="headerImage">
                 <img src={require('../images/reddcross.jpg')} alt="headerImage"></img>
             </div>
@@ -16,7 +16,7 @@ const OrganizationHeaderComponent = () => {
                 <div className="profileContent">
                     <div className="profileDetails">
                         <div className="organizationName">
-                                <h6>Redd Cross</h6>
+                                <h6>Red Cross</h6>
                         </div>
                         <div className="socialsContainer">
                             <img src={window1} alt="W"></img>
@@ -56,15 +56,13 @@ const OrganizationHeaderComponent = () => {
                     </div>
                 </div>
             </div>
-            <div className="organizationHeaderBottom">
-                <div className="organizationButtons">
-                    <NavButton text={"About"}></NavButton>
-                    <NavButton text={"Projects"}></NavButton>
+            <div className="organizationHeaderBottom" >
+                <div className="organizationButtons" style={{paddingTop: 150}}>
+                    <a href="/Organization"><NavButton text={"About"} border={"solid #709E9B 3px"}></NavButton></a>
+                    <a href="/OrganizationProjects"><NavButton text={"Projects"} border={"solid #709E9B 3px"}></NavButton></a>
+                    <hr style={{width: "100%"}}></hr>
                 </div>
             </div>
-            <div className="sectionDivider">
-                    <hr></hr>
-                </div>
         </div>
     )
 }

@@ -8,6 +8,7 @@ import ContactPage from "./Components/ContactPage";
 
 import ExplorationPage from "./pages/ExplorationPage";
 import DonationPage from "./pages/DonationPage";
+import OrganizationProjects from "./Components/OrganizationPage/OrganizationProjects.js";
 
 
 
@@ -81,6 +82,9 @@ function App() {
         <Route path={"/Settings"} element={<SettingsPage />}/>
         <Route path={"/FAQ"} element={<FaqPage />}/>
         <Route path={"/Contact"} element={<ContactPage />}/> 
+
+        <Route path={"/OrganizationAbout"} element={<OrganizationPage />}/>
+        <Route path={"/OrganizationProjects"} element={<OrganizationProjects />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
