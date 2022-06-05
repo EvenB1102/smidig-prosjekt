@@ -3,7 +3,7 @@ import { ActionButton } from '../ButtonComponents'
 
 const LandingField1 = () => {
   return (
-    <div>
+    <div style={{maxWidth: "1150px", marginLeft: "auto", marginRight: "auto"}}>
         <div style={{padding: "3rem"}} >
             <h1>Welcome to Meliora Impact</h1>
             <h3>Who are we?</h3>

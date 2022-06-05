@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to="/">
-          <img src={require("../../images/Logo.png")} alt="logo" />
+          <img src={require("../../images/logoFooter.png")} alt="logo" />
         </NavLink>
         <Bars />
         <div
