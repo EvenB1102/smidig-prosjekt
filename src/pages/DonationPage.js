@@ -18,6 +18,7 @@ function DonationPage() {
                 </div>
                 <div style={{width: 743, display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
                 <p>Only 64% of children in Myanmar aged 5-17 years are attending school, leaving over one million children out of school. In addition, improving the quality of education is critical as it is still one of the causes for children to drop out from school.</p>
+                <h3>Project created by <a href="/Organization">Red Cross</a></h3>
                 </div>
 
 
