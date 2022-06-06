@@ -115,6 +115,18 @@ const NewsPage = () => {
                       width: "322px",
                       height: "300px ",
                     }}
+                    src={news4}
+                    alt=""
+                  />
+                </Link>
+                <Link to="">
+                  <img
+                    className="NewsImg"
+                    style={{
+                      padding: "5px",
+                      width: "322px",
+                      height: "300px ",
+                    }}
                     src={news1}
                     alt=""
                   />
@@ -125,7 +137,7 @@ const NewsPage = () => {
                     className="NewsImg"
                     style={{
                       padding: "5px",
-                      width: "644px",
+                      width: "654px",
                       height: "300px ",
                     }}
                     src={news2}
@@ -160,19 +172,7 @@ const NewsPage = () => {
                   alt=""
                 />
               </Link>
-              <Link to="">
-                <img
-                  className="NewsImg"
-                  style={{
-                    padding: "5px",
-                    maxWidth: "90%",
-                    width: "322px",
-                    height: "300px ",
-                  }}
-                  src={news4}
-                  alt=""
-                />
-              </Link>
+              
             </div>
           </div>
 
@@ -186,7 +186,7 @@ const NewsPage = () => {
             <div>
               <h1
                 class="top-stories"
-                style={{ padding: "10px", fontSize: "45px" }}
+                style={{ padding: "20px", fontSize: "45px" }}
               >
                 Top Stories
               </h1>
@@ -268,23 +268,7 @@ const NewsPage = () => {
                       minus officiis</p>
                 </div>
               </Link>
-              <Link to="">
-                <img
-                  className="NewsImg"
-                  style={{
-                    padding: "5px",
-                    height: "100px",
-                    width: "150px",
-                  }}
-                  src={topStories}
-                  alt=""
-                />
-
-                <div class="top-story-text">
-                  <p> Lorem ipsum dolor sit amet. Ea distinctio consequatur ut
-                      minus officiis</p>
-                </div>
-              </Link>
+              
             </div>
           </div>
         </div>
