@@ -5,7 +5,7 @@ import "../css/Footer.css";
 const Footer = () => {
     return(
         <div className="main-footer">
-            <div className="container">
+            <div className="footer-container">
                 <div className="row">
                     <div style={{display: "flex", flex: 1, flexDirection: "column", alignItems: "center"}}>
                         <div style={{display: "flex", flexDirection: "row", flex: 1, justifyContent: "center", alignItems: "flex-end"}}>
