@@ -16,15 +16,17 @@ const LandingField5 = () => {
         <div className='landingField52Div' style={{display: "flex", flexDirection: "row", justifyContent: "center" }}>
             <img className='NewsImg' style={{padding: "5px", maxWidth: "90%", width: "268px", height: "250px"}} src={news3} alt=""/>
             <img className='NewsImg' style={{padding: "5px", maxWidth: "90%", width: "268px", height: "250px"}} src={news4} alt=""/>  
-            <div style={{padding: "5px", width: "266px", height: "248px", display: "flex", flexDirection: "column" }} >
-                <h3 style={{ textAlign: "center" }} >News and more information</h3>
+            <div style={{padding: "5px", width: "266px", height: "248px", display: "flex", flexDirection: "column", justifyContent: "center" }} >
+                <h3 style={{ textAlign: "center", }} >News and more information</h3>
                 
                 
                 {/*Dette skal bli en link*/}
-                <div style={{display: "flex", flexDirection: "row", justifyContent:"flex-end", alignItems: "center ", paddingRight: "20px"  }} >
-                  <Link to="/News">
+                <div >
+                  <Link style={{textDecoration: "none"}} to="/News">
+                <div style={{display: "flex", flexDirection: "row", justifyContent:"flex-end", alignItems: "center ", paddingRight: "20px"  }} >    
                 <p style={{color: "#34B3EF", }}>Read more&nbsp;&nbsp;&nbsp;&nbsp;</p>
                 <img style={{ height: "20px", width: "20px" }} src={LinkImg} alt=""/>
+                </div>
                 </Link>
                 </div>
             </div>
