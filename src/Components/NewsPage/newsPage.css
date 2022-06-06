@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+.header-body {
+  font-family: "Quattrocento", Arial, sans-serif;
+  position: relative;
+  margin: 100px;
+  color: #141414;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.news-container {
+  position: relative;
+  text-align: center;
+  height: 200px;
+  z-index: 5;
+}
+.news-container-img {
+  width: 100%;
+  height: 300px;
+}
+.top-left-news {
+  position: absolute;
+  top: 80px;
+  left: 210px;
+  color: white;
+  font-size: 60px;
+}
+.top-left-text {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    color: white;
+    max-width: 400px;
+    font-size: 15px;
+  }
+.column {
+  float: left;
+  width: 23%;
+  padding: 5px;
+  margin:10rem 0rem;
+  position: relative;
+  text-align: center;
+  
+}
+.column-text {
+  position: absolute;
+  font-size: 20px;
+  bottom: 50px;
+  left: 50px;
+  color:white;
+}
+.column img{
+  border-radius: 15%;
+  height: 250px;
+  
+}
+.latest-news {
+  position: absolute;
+  top: 530px;
+  left: 210px;
+  font-size: 45px;
+}
+
+.top-story-text {
+  font-size: 20px;
+  float: right;
+  max-width: 300px;
+}
+.weekly-news-text{
+  position: absolute;
+  max-width: 300px;
+  
+}
+  
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
-import CharityCard from "../Components/CharityCard";
-import SmallCharityCard, { SmallCharityCard20, SmallCharityCard45, SmallCharityCard70, SmallCharityCard90, SmallCharityCardComplete } from "../Components/SmallCharityCard";
+
+import { SmallCharityCard20, SmallCharityCard45, SmallCharityCardComplete } from "../Components/CharityCards/SmallCharityCard";
 import icon from "../images/icon.jpeg"
 
 
@@ -11,6 +11,7 @@ function DonationPage() {
 
             <h1 style={{marginTop: 70}}>Children in Myanmar need education</h1>
         
+
                 <div style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
                 <img src={require("../images/image.png")} style={{width: "743px"}}/>
                 <img src={require("../images/Donate.png")} style={{width: "422px"}}/>
@@ -77,7 +78,7 @@ function recommendedFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCard20 {...myElement} />
             <SmallCharityCard45 {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }
@@ -88,7 +89,7 @@ function completedFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCardComplete {...myElement} />
             <SmallCharityCardComplete {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }
@@ -99,7 +100,7 @@ function ongoingFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCard20 {...myElement} />
             <SmallCharityCard45 {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }

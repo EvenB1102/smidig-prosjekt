@@ -84,7 +84,6 @@ export const SubscriptionPlanStyles = {
         fontSize: 36,
         lineHeight: "100%",
         
-        
         color: "#001826"
     },
     duration: {

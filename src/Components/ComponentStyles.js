@@ -33,13 +33,6 @@ export const ProfileHeaderComponentStyles = {
     }
 }
 
-export const CharityCardComponentStyles = {
-
-}
-
-export const SubscriptionPlanStyles = {
-}
-    
 export const BadgeCardStyles = {
     badgeWrapper: {
         width: "296px",

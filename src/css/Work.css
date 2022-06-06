@@ -1,4 +1,4 @@
-* {
+.workwork {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,18 +6,22 @@
 }
 .work-section {
     width: 100%;
-    background: #EDCBB1;
+    background: #edcbb185;
     overflow: hidden;
     
 }
 .work-container {
     min-height: 439px;
     width: 70%;
+
+
     min-height: 439px;
-    background: #EDCBB1;
+    overflow: hidden;
+    
 }
 .work-container {
-    width: 80%;
+    min-height: 439px;
+    width: 70%;
     display: block;
     margin: auto;
     padding-top: 100px;
@@ -25,15 +29,17 @@
 .work-content-section {
     float: right;
     width: 55%;
+
     margin-bottom: 50px;
 }
 .work-image-section {
     float: left;
     width: 30%;
+
 }
 .work-image-section {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 .work-image-section img {
     width: 100%;

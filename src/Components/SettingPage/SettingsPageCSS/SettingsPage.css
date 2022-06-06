@@ -1,0 +1,26 @@
+.settingspage h1 {
+    font-size: 45px;
+    font-family: 'Euclid Circular B';
+}
+
+.settingspage h2 {
+    font-size: 28px;
+    font-family: 'Euclid Circular B';
+    font-weight:normal;
+}
+
+.settingspage p {
+    color: grey;
+    font-family: 'Euclid Circular B';
+}
+
+.activediv:hover {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(237, 203, 177, 0.2);
+}
+
+.youraccount {
+    background-color: rgba(112,	158,	155, 0.6);
+    padding: 0;
+}
