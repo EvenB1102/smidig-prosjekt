@@ -36,7 +36,7 @@ const Footer = () => {
                         <div style={{display: "flex", flex: 1, justifyContent: "center", alignItems: "flex-end"}}>
                             <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", fontWeight: "400", color: "#001826"}}>Sign up for the Newsletter</p>
                         </div>
-                        <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
+                        <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "15px"}}>
                             <p style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "normal", fontWeight: "400", color: "#001826"}}>Email</p>
                             <input style={{width: "45%", height: 40, background: "#ECECEC", border: "none", borderRadius:"15px" }}></input>
                         </div>
