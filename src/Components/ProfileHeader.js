@@ -16,7 +16,7 @@ const OrganizationHeaderComponent = () => {
                 <div className="profileContent">
                     <div className="profileDetails">
                         <div className="organizationName">
-                        <img src={require('../images/volklogo.png')} alt="headerImage" style={{position: "absolute", marginLeft: -5, top: 280}}></img> 
+                        <img src={require('../images/volklogo.png')} alt="headerImage" style={{position: "absolute", marginLeft: -5, top: 230}}></img> 
                                 <h6>Volkswagen</h6>
                         </div>
                         <div className="socialsContainer" style={{display: 'flex', justifyContent: "center", lineHeight: "2", color: "#709E9B"}}>

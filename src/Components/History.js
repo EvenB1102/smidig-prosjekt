@@ -4,7 +4,7 @@ const History = () => {
 return(
   <div style={{top: "0", position: "relative", height: "fit-content"}} className="main">
     <div className="container" style={{padding: 0, margin: 0}}>
-      <div style={{display: "flex", flexFlow:"row wrap", width: "100%", backgroundColor: "rgba(237, 203, 177, 0.2)"}} className="row">
+      <div style={{display: "flex", flexFlow:"row wrap", width: "1300px", backgroundColor: "rgba(237, 203, 177, 0.2)"}} className="row">
         <div style={{flex: "0 1 100%",textAlign: "left"}} classname="col">
             <div style={{position: "relative", left: "10%"}}>
                 <p style={{fontFamily: "Euclid Circular B", fontSize: "35px", fontStyle: "normal", lineHeight: "130%", fontWeight: "700", position: "relative", color: "#001826"}}>History</p>
@@ -47,7 +47,7 @@ return(
                     <p style={{fontFamily: "Euclid Circular B", fontSize: "13px", fontStyle: "normal", lineHeight: "160%", fontWeight: "450", position: "relative", color: "#6F6C99", opacity: "0.5"}}>02/06/2021</p>
                 </div>
             </div>
-                <img style={{position: "absolute", top: "45%", left: "52%"}} src={require('../images/logoForHistoryComponent.png')} alt="logo"/>
+                <img style={{position: "absolute", top: "45%", left: "72%"}} src={require('../images/logoForHistoryComponent.png')} alt="logo"/>
          </div>
          
       </div>
