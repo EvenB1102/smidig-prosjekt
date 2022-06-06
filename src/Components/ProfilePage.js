@@ -7,7 +7,10 @@ export const ProfilePage = () => {
       <div>
   
         <ProfileHeader />
+        
+        <div  style={{display: "flex", justifyContent: "center"}}>
         <Activity />
+        </div>
 
           
           
