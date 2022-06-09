@@ -7,7 +7,7 @@ const HowMelioraImpactWorks = () => {
             <div className="container">
                 <div style={{display: "flex", flexFlow:"row wrap", flex: "1 0 100%", backgroundColor: "white"}} className="row">
                     <div style={{flex: "0 1 100%",textAlign: "center"}} classname="col">
-                        <p style={{fontFamily: "Euclid Circular B", fontSize: "45px", fontStyle: "normal", lineHeight: "120%", fontWeight: "600", position: "relative", color: "#001826"}}>How Meloria Impact Works</p>
+                        <p style={{fontFamily: "Euclid Circular B", fontSize: "45px", fontStyle: "normal", lineHeight: "120%", fontWeight: "600", position: "relative", color: "#001826"}}>How Melioria Impact Works</p>
                         <p style={{fontFamily: "Euclid Circular B", fontSize: "20px", fontStyle: "normal", lineHeight: "135%", fontWeight: "400", position: "relative", color: "#0E161B"}}>Meloria Impact is the best place to fundraise as an organization</p>
                         <div classname="HowWeWorkImage">
                             <img style={{width: "43%"}} src={require('../images/HowWeWork.png')} alt="logo"/>
