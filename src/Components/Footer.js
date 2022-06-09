@@ -13,14 +13,14 @@ const Footer = () => {
                         </div>
                         <div style={{display: "flex", flexDirection: "row"}}>
                             <div style={{display: "flex", flex: 1, flexDirection: "column", alignItems: "flex-start", justifyContent: "space-between"}}>
-                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>Home</button>
-                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>About</button>
-                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>Contact</button>
+                                <Link to="/" ><button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>Home</button></Link>
+                                <Link to="/About" ><button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>About</button></Link>
+                                <Link to="/Contact" ><button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left",backgroundColor: "white", paddingLeft: 70}}>Contact</button></Link>
                             </div>
                                 <div style={{height: 100, width: 1, background: "black"}}></div>
                             <div style={{display: "flex", flex: 1, flexDirection: "column", alignItems: "flex-start", justifyContent: "space-between"}}>
-                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left", backgroundColor: "white", paddingLeft: 50}}>Questions</button>
-                                <button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left", backgroundColor: "white", paddingLeft: 50}}>Terms & Conditions</button>
+                                <Link to="/FAQ" ><button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left", backgroundColor: "white", paddingLeft: 50}}>Questions</button></Link>
+                                <Link to="Settings" ><button style={{fontFamily: "Euclid Circular B", fontSize: "24px", fontStyle: "italic", fontWeight: "300",color: "#001826",border: "none", textAlign: "left", backgroundColor: "white", paddingLeft: 50}}>Terms & Conditions</button></Link>
                             </div>
                         </div>
                     </div>
