@@ -6,60 +6,52 @@ import InstaLogo from '../images/InstaLogo.png'
 import TwitterLogo from '../images/TwitterLogo.png'
 import OrganizationHeaderStyle from "../css/OrganizationHeaderStyle.css"
 
+
 const OrganizationHeaderComponent = () => {
     return (
         <div className="organizationContainer" style={{paddingBottom: 150}}>
             <div className="headerImage">
-                <img src={require('../images/reddcross.jpg')} alt="headerImage"></img>
+                <img src={require('../images/volkswa.png')} alt="headerImage"></img>
             </div>
             <div className="profileContentContainer">
                 <div className="profileContent">
                     <div className="profileDetails">
                         <div className="organizationName">
-                                <h6>Red Cross</h6>
+                        <img src={require('../images/volklogo.png')} alt="headerImage" style={{position: "absolute", marginLeft: -5, top: 230}}></img> 
+                                <h6>Volkswagen</h6>
                         </div>
-                        <div className="socialsContainer">
-                            <img src={window1} alt="W"></img>
-                            <div className="statsDivider"></div>
-                            <img src={FacebookLogo} alt="F"></img>
-                            <div className="statsDivider"></div>
-                            <img src={InstaLogo} alt="I"></img>
-                            <div className="statsDivider"></div>
-                            <img src={TwitterLogo} alt="T"></img>
+                        <div className="socialsContainer" style={{display: 'flex', justifyContent: "center", lineHeight: "2", color: "#709E9B"}}>
+                            <h3 style={{margin: 0, padding: 0, fontSize: 11}}>www.volkswagen.com</h3>
                         </div>
                     </div>
                     <div className="profileDescription">
                         <div className="profileDescriptionText">
-                            <p>The Norwegian Red Cross mission is to reveal, prevent and alleviate human suffering and distress. Our activities are grounded in local needs, resources and competencies, carried out by local volunteers.</p>
+                            <p>World famous car manufacturer from Germany.
+Welcome to our official page for donations.</p>
                         </div>
                         <div className="statsBar">
                             <div>
-                                <p className="statsNumber">11</p>
+                                <p className="statsNumber">17</p>
                                 <p className="statsTitle">Donations</p>
                             </div>
                             <div className="statsDivider"></div>
                             <div>
                                 <p className="statsNumber">6</p>
-                                <p className="statsTitle">Ongoing Projects</p>
+                                <p className="statsTitle">Badges</p>
                             </div>
                             <div className="statsDivider"></div>
                             <div>
-                                <p className="statsNumber">$65m</p>
+                                <p className="statsNumber">$3,4m</p>
                                 <p className="statsTitle">Total donations</p>
-                            </div>
-                            <div className="statsDivider"></div>
-                            <div>
-                                <p className="statsNumber">$200</p>
-                                <p className="statsTitle">Goal</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="organizationHeaderBottom" >
-                <div className="organizationButtons" style={{paddingTop: 150}}>
-                    <a href="/Organization"><NavButton text={"About"} border={"solid #709E9B 3px"}></NavButton></a>
-                    <a href="/OrganizationProjects"><NavButton text={"Projects"} border={"solid #709E9B 3px"}></NavButton></a>
+                <div className="organizationButtons" style={{paddingTop: 100}}>
+                    <a className='activityLink' href="/profile"><NavButton text={"Activity"} border={"none"}></NavButton></a>
+                    <a className='badgesLink' href="/profilepagebadges"><NavButton text={"Badges"} border={"none"}></NavButton></a>
                     <hr style={{width: "100%"}}></hr>
                 </div>
             </div>

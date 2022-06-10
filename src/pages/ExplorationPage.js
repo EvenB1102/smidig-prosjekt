@@ -1,8 +1,7 @@
-import CharityCard from "../Components/CharityCard";
+import CharityCard from "../Components/CharityCards/CharityCard"
 import icon from "../images/icon.jpeg"
 import icon2 from "../images/bk.webp"
 import hero from "../images/Hero.png"
-import { NavBtn } from "../Components/Navbar/features";
 import { NavButton } from "../Components/ButtonComponents";
 
 
@@ -15,14 +14,14 @@ function ExplorationPage() {
         </main>
 
         <div style={{display: "flex", justifyContent: "center", gap: "30px"}}>
-        <a href="/Explore"><NavButton text="All" /></a>
+        <a href="/Explore"><NavButton text="All" border={"solid #709E9B 3px"}  /></a>
         <a href="/Explore"><NavButton text="Education" /></a>
         <a href="/Explore"><NavButton text="Water" /></a>
         </div>
 
       <div style={{display: "flex", justifyContent: "center"}}>
         <div style={{width: "1120px"}}>
-            <div style={{display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "center"}}>
+            <div style={{display: "flex", flex: 1, flexWrap: "wrap", justifyContent: "center"}}>
                 <CharityCard {...myElement}/>
                 <CharityCard {...myElement}/>
                 <CharityCard {...myNewElement}/>

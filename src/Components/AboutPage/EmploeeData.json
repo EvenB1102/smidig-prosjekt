@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/images/AnonymousW.png",
+        "title": "COB",
+        "name": "Acacia Cristel De Meo",
+        "describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit"
+
+    },
+    {
+        "id": 2,
+        "image": "./assets/images/AnonymousW.png",
+        "title": "VCOB",
+        "name": "Mara Andrea Lehman",
+        "describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit"
+
+    },
+    {
+        "id": 3,
+        "image":  "./assets/images/AnonymousW.png",
+        "title": "Title",
+        "name": "Firstname Lastname",
+        "describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit"
+
+    }
+
+]

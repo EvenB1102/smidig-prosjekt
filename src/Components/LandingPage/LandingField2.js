@@ -5,9 +5,9 @@ const LandingField2 = () => {
     <div>
         <div style={{ background: "#EDCBB120"}}>
             <div  style={{textAlign: "center", paddingTop: "3rem"}} >
-                <h1>inspiration</h1>
+                <h1>Inspiration</h1>
                 <p>Check out some of our success stories below.</p>
-                <br/><br/><br/>       
+                <br/><br/>      
             </div>
         </div>
     </div>

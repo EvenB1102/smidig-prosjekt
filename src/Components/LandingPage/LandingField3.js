@@ -1,12 +1,12 @@
 import React from 'react'
-import CharityCard from '../CharityCard'
+import CharityCard from '../CharityCards/CharityCard'
 import icon from "../../images/icon.jpeg"
 
 
 const LandingField3 = () => {
   return (
     <div>
-        <div style={{ padding: "0rem 3rem 3rem 3rem", background: "#EDCBB120", height: "47rem", alignItems: "center", justifyContent: "center", display: "flex" }}>
+        <div style={{ padding: "0rem 3rem 3rem 3rem", background: "#EDCBB120", alignItems: "center", justifyContent: "center", display: "flex" }}>
         <div style={{ maxWidth: "1120px", padding: "3rem 0rem" }} >
             <div className='landingField34Div' style={{display: "flex", flexDirection: "row", justifyContent: "center" , flexFlow: "flow"  }} >
                     <div><CharityCard {...myElement}/></div>

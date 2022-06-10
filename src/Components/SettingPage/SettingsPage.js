@@ -7,11 +7,10 @@ import SettingsRight from './SettingsRight'
 const SettingsPage = () => {
   return (
     <div className='settingspage'>
-    <div style={{ display: "flex", flexDirection: "row", alignItems: "flexStart", flexFlow: "flow", minHeight: "695px" }}>
+    <div style={{ display: "flex", flexDirection: "row", alignItems: "flexStart", flexFlow: "flow", minHeight: "695px", }}>
       <SettingsLeft/>
       <SettingsRight/>
     </div>
-    <Footer/>
 
     </div>
   )

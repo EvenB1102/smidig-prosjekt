@@ -1,37 +1,39 @@
-import CharityCard from "../Components/CharityCard";
-import SmallCharityCard, { SmallCharityCard20, SmallCharityCard45, SmallCharityCard70, SmallCharityCard90, SmallCharityCardComplete } from "../Components/SmallCharityCard";
+
+import { SmallCharityCard20, SmallCharityCard45, SmallCharityCardComplete } from "../Components/CharityCards/SmallCharityCard";
 import icon from "../images/icon.jpeg"
 
 
 function DonationPage() {
     return(
         
-        <body style={{paddingLeft: 100}} >
-
+        <div style={{display: "flex", justifyContent: "center"}}>
+        <div style={{width: "1120px"}}>
 
             <h1 style={{marginTop: 70}}>Children in Myanmar need education</h1>
         
-        <div style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
-        <img src={require("../images/image.png")} style={{width: "743px"}}/>
-        <img src={require("../images/Donate.png")} style={{width: "422px"}}/>
+
+                <div style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
+                <img src={require("../images/image.png")} style={{width: "743px"}}/>
+                <img src={require("../images/Donate.png")} style={{width: "422px"}}/>
+                </div>
+                <div style={{width: 743, display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
+                <p>Only 64% of children in Myanmar aged 5-17 years are attending school, leaving over one million children out of school. In addition, improving the quality of education is critical as it is still one of the causes for children to drop out from school.</p>
+                <h3>Project created by <a href="/Organization">Red Cross</a></h3>
+                </div>
+
+
+
+                <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 230}}>
+                    {ongoingFundraisers()}
+                    <img src={require("../images/Ellipse.png")} style={{position: "absolute", zIndex: "-1", top: 780, left: -700}}/>
+
+                    {completedFundraisers()}
+
+                    {recommendedFundraisers()}
+                </div>
+
+            </div>
         </div>
-        <div style={{width: 743, display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
-        <p>Only 64% of children in Myanmar aged 5-17 years are attending school, leaving over one million children out of school. In addition, improving the quality of education is critical as it is still one of the causes for children to drop out from school.</p>
-        </div>
-
-
-
-        <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 230, overflow: "hidden"}}>
-            {ongoingFundraisers()}
-            <img src={require("../images/Ellipse.png")} style={{position: "absolute", zIndex: "-1", top: 780, left: -700}}/>
-
-            {completedFundraisers()}
-
-            {recommendedFundraisers()}
-        </div>
-
-
-        </body>
     )
 }
 
@@ -77,7 +79,7 @@ function recommendedFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCard20 {...myElement} />
             <SmallCharityCard45 {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }
@@ -88,7 +90,7 @@ function completedFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCardComplete {...myElement} />
             <SmallCharityCardComplete {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }
@@ -99,7 +101,7 @@ function ongoingFundraisers() {
         <div style={{ display: "flex", flex: 4, flexWrap: "wrap", justifyContent: "flex-start", width: 2000 }}>
             <SmallCharityCard20 {...myElement} />
             <SmallCharityCard45 {...myElement} />
-            <p style={DonationStyles.seemore}>See more</p>
+            <a href="/Explore" style={{textDecoration: "none"}}><p style={DonationStyles.seemore}>See more</p></a>
         </div>
     </div>;
 }

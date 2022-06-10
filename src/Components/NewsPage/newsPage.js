@@ -1,19 +1,19 @@
 import React from "react";
 import "./newsPage.css";
 
-import news1 from "../Images/news1.png";
-import news2 from "../Images/news2.png";
-import news3 from "../Images/news3.png";
-import news4 from "../Images/news4.png";
-import topStories from "../Images/topStories.png";
+import news1 from "../../images/news1.png";
+import news2 from "../../images/news2.png";
+import news3 from "../../images/news3.png";
+import news4 from "../../images/news4.png";
+import topStories from "../../images/topStories.png";
 
 import { Link } from "react-router-dom";
 
 const NewsPage = () => {
   return (
     <>
-      <div className="container">
-        <img src={require("../Images/news.png")} alt="news" />
+      <div className="news-container">
+        <img src={require("../../images/news.png")} alt="news" className="news-container-img"/>
         <h1 className="top-left-news">News Feed</h1>
         <div className="top-left-text">
           Lorem ipsum dolor sit amet. Non pariatur praesentium ut beatae galisum
@@ -115,6 +115,18 @@ const NewsPage = () => {
                       width: "322px",
                       height: "300px ",
                     }}
+                    src={news4}
+                    alt=""
+                  />
+                </Link>
+                <Link to="">
+                  <img
+                    className="NewsImg"
+                    style={{
+                      padding: "5px",
+                      width: "322px",
+                      height: "300px ",
+                    }}
                     src={news1}
                     alt=""
                   />
@@ -125,7 +137,7 @@ const NewsPage = () => {
                     className="NewsImg"
                     style={{
                       padding: "5px",
-                      width: "644px",
+                      width: "654px",
                       height: "300px ",
                     }}
                     src={news2}
@@ -160,19 +172,7 @@ const NewsPage = () => {
                   alt=""
                 />
               </Link>
-              <Link to="">
-                <img
-                  className="NewsImg"
-                  style={{
-                    padding: "5px",
-                    maxWidth: "90%",
-                    width: "322px",
-                    height: "300px ",
-                  }}
-                  src={news4}
-                  alt=""
-                />
-              </Link>
+              
             </div>
           </div>
 
@@ -186,7 +186,7 @@ const NewsPage = () => {
             <div>
               <h1
                 class="top-stories"
-                style={{ padding: "10px", fontSize: "45px" }}
+                style={{ padding: "20px", fontSize: "45px" }}
               >
                 Top Stories
               </h1>
@@ -268,23 +268,7 @@ const NewsPage = () => {
                       minus officiis</p>
                 </div>
               </Link>
-              <Link to="">
-                <img
-                  className="NewsImg"
-                  style={{
-                    padding: "5px",
-                    height: "100px",
-                    width: "150px",
-                  }}
-                  src={topStories}
-                  alt=""
-                />
-
-                <div class="top-story-text">
-                  <p> Lorem ipsum dolor sit amet. Ea distinctio consequatur ut
-                      minus officiis</p>
-                </div>
-              </Link>
+              
             </div>
           </div>
         </div>
