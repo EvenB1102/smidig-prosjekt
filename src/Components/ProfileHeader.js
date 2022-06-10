@@ -50,7 +50,7 @@ Welcome to our official page for donations.</p>
             <div className="organizationHeaderBottom" >
                 <div className="organizationButtons" style={{paddingTop: 100}}>
                     <a href="/profile"><NavButton text={"Activity"} border={"solid #709E9B 3px"}></NavButton></a>
-                    <a href=""><NavButton text={"Badges"} border={"solid #709E9B 3px"}></NavButton></a>
+                    <a href="/profilepagebadges"><NavButton text={"Badges"} border={"solid #709E9B 3px"}></NavButton></a>
                     <hr style={{width: "100%"}}></hr>
                 </div>
             </div>
