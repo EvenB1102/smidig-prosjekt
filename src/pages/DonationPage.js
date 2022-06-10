@@ -21,7 +21,7 @@ function DonationPage() {
 
 
 
-        <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 230}}>
+        <div class="fundraisers" style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: 230, overflow: "hidden"}}>
             {ongoingFundraisers()}
             <img src={require("../images/Ellipse.png")} style={{position: "absolute", zIndex: "-1", top: 780, left: -700}}/>
 

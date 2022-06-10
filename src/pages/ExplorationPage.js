@@ -2,6 +2,8 @@ import CharityCard from "../Components/CharityCard";
 import icon from "../images/icon.jpeg"
 import icon2 from "../images/bk.webp"
 import hero from "../images/Hero.png"
+import { NavBtn } from "../Components/Navbar/features";
+import { NavButton } from "../Components/ButtonComponents";
 
 
 function ExplorationPage() {
@@ -13,9 +15,9 @@ function ExplorationPage() {
         </main>
 
         <div style={{display: "flex", justifyContent: "center", gap: "30px"}}>
-          <a href="www.google.com">All</a>
-          <a href="www.google.com">Education</a>
-          <a href="www.google.com">Water</a>
+        <a href="/Explore"><NavButton text="All" /></a>
+        <a href="/Explore"><NavButton text="Education" /></a>
+        <a href="/Explore"><NavButton text="Water" /></a>
         </div>
 
       <div style={{display: "flex", justifyContent: "center"}}>

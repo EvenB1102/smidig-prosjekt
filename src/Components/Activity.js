@@ -2,6 +2,7 @@ import { ActivityButtons } from "./ButtonComponents";
 import watericon from "../images/icons/Water.png"
 import educationicon from "../images/icons/Materials.png"
 import othericon from "../images/icons/Sort.png"
+import History from "./History";
 
 export function Activity() {
     return (
@@ -19,9 +20,11 @@ export function Activity() {
             </div>
             </div>
 
-            <div style={{paddingTop: 50}}>
+            <div style={{paddingTop: 50, paddingBottom: 70}}>
                 <img src={require("../images/Graph.png")} />
             </div>
+
+            <History />
         </div>
     )
 }

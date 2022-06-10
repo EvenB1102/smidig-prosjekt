@@ -1,0 +1,136 @@
+
+.contactPageContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactUsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: rgba(237, 203, 177, 0.2);
+}
+.contactTitleContainer {
+    margin-top: 100px;
+    float: left;
+}
+.contactUsTitle {
+    display: flex;
+    align-items: center;
+}
+.contactUsTitle hr {
+    width: 72px;
+    height: 3px;
+    margin-right: 25px;
+    background: #709E9B;
+}
+.contactUsTitle h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #709E9B;
+    line-height: 67.2px;
+}
+.contactTitleContainer h1 {
+    font-size: 56px;
+    line-height: 67.2px;
+}
+.contactTitleContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.contactTitleContainer h1 span {
+    color: #709E9B;
+}
+.contactHeader {
+    margin-left: 100px;
+}
+.contactInfo {
+    margin-top: 100px;
+    padding-left: 60px;
+    max-width: 355px;
+    height: 392px;
+    float: right;
+}
+.contactInfo h6{
+    font-size: 18px;
+    line-height: 32px;
+}
+.contactInfo p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.contactInfo .letsTalk h6{
+    font-size: 20px;
+}
+.contactInfoBox {
+    padding: 20px;
+}
+.socialMedia {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*******
+    Contact Form 
+*******/
+
+.contactFormContainer {
+    display: flex;
+    justify-content: center;
+}
+.contactForm {
+    margin-top: 20px;
+    width: 768px;
+    height: 529px;
+}
+.contactFormContent {
+    display: block;
+    font-size: 12px;
+    color: #1D2130;
+}
+.half {
+    width: 768px;
+    display: flex;
+    align-items: flex-start;
+    justify-self: center;
+    padding-bottom: 3px;
+}
+.half input {
+    border: none;
+    height: 20px;
+    font-size: 18px;
+    width: 360px;
+    border-bottom: solid 1px black;
+    padding: 20px 0 15px 0;
+}
+.full {
+    width: 768px;
+    padding-bottom: 3px;
+}
+.full input {
+    border: none;
+    height: 20px;
+    font-size: 18px;
+    width: 745px;
+    border-bottom: solid 1px black;
+    padding: 20px 0 15px 0;
+}
+.messageTitle {
+    padding-top: 40px;
+}
+.full textarea{
+    padding: 20px;
+    width: 745px;
+    height: 156px;
+}
+.item {
+    padding-top: 30px;
+}
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 80px 0;
+}
