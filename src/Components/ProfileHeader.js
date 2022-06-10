@@ -6,6 +6,7 @@ import InstaLogo from '../images/InstaLogo.png'
 import TwitterLogo from '../images/TwitterLogo.png'
 import OrganizationHeaderStyle from "../css/OrganizationHeaderStyle.css"
 
+
 const OrganizationHeaderComponent = () => {
     return (
         <div className="organizationContainer" style={{paddingBottom: 150}}>
@@ -35,7 +36,7 @@ Welcome to our official page for donations.</p>
                             </div>
                             <div className="statsDivider"></div>
                             <div>
-                                <p className="statsNumber">4</p>
+                                <p className="statsNumber">6</p>
                                 <p className="statsTitle">Badges</p>
                             </div>
                             <div className="statsDivider"></div>
@@ -49,8 +50,8 @@ Welcome to our official page for donations.</p>
             </div>
             <div className="organizationHeaderBottom" >
                 <div className="organizationButtons" style={{paddingTop: 100}}>
-                    <a href="/profile"><NavButton text={"Activity"} border={"solid #709E9B 3px"}></NavButton></a>
-                    <a href="/profilepagebadges"><NavButton text={"Badges"} border={"solid #709E9B 3px"}></NavButton></a>
+                    <a className='activityLink' href="/profile"><NavButton text={"Activity"} border={"none"}></NavButton></a>
+                    <a className='badgesLink' href="/profilepagebadges"><NavButton text={"Badges"} border={"none"}></NavButton></a>
                     <hr style={{width: "100%"}}></hr>
                 </div>
             </div>
